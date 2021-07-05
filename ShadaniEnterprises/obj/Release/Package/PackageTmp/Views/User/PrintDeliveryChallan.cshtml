@@ -1,0 +1,219 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+@model ShadaniEnterprises.Models.DeliveryChallanList
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Print Delivery Challan</title>
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+    <style>
+
+
+        .invoice-title h2, .invoice-title h3 {
+            display: inline-block;
+        }
+
+        .table > tbody > tr > .no-line {
+            border-top: none;
+        }
+
+        .table > thead > tr > .no-line {
+            border-bottom: none;
+        }
+
+        .table > tbody > tr > .thick-line {
+            border-top: 2px solid;
+        }
+        .panel-footer {
+            text-align: center;
+            position: relative;
+        }
+
+            .panel-footer .right {
+                position: absolute;
+                right: 0;
+                /* vertically center the icon */
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
+            .panel-footer .left {
+                position: absolute;
+                left: 0;
+                /* vertically center the icon */
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
+            .panel-footer p {
+                font-size: medium;
+                padding: 0 20px; /* leave space for the icon adjust this value depending on how big your icon is */
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <br><br>
+            @for (int x = 0; x < Model.LstDeliveryChallan.Count(); x++)
+            {
+             
+                    <div class="col-xs-12">
+                        <div class="panel-footer">
+                            <img src="../../img/2.png" alt='logo' class="left">
+                            <p style="font-size:16px; font-weight:bold">SHADANI ENTERPRISES</p> <p style="font-size:12px; font-weight:bold"> R-96, Evacuee Society, Gulshan-e-Iqbal, Block 10-A, Karachi. <br /> Ph: 021-34156849  www.shadanienterprises.com</p>
+                            <h2 class="right" style="font-size:20px; font-weight:bold">Delivery Challan</h2>
+                        </div><br />
+                        <div class="invoice-title">
+
+                            <strong>Order #: @Model.LstDeliveryChallan[x].CustOrderNum</strong>
+                            <strong class="pull-right">DC No. @Model.LstDeliveryChallan[x].InvoiceNumber</strong>
+
+                        </div>
+                        <div class="invoice-title">
+
+                            <strong>Order Date: @Model.LstDeliveryChallan[x].OrderDate</strong>
+                            <strong class="pull-right">DC Date: @Model.LstDeliveryChallan[x].InvoiceDate</strong>
+                            
+                        </div>
+                        <div class="invoice-title">
+
+                            <strong>Customer Name: @Model.LstDeliveryChallan[x].CustomerName</strong>
+                           
+                        </div>
+
+                        <div class="invoice-title">
+                            <strong>Address: @Model.LstDeliveryChallan[x].Address1</strong><br />
+                            <strong>@Model.LstDeliveryChallan[x].Address2</strong>
+
+                        </div>
+
+
+                    </div>
+            }
+        </div>
+
+        <div class="row" style="margin-top:8px">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    @*<div class="panel-heading">
+                        <h3 class="panel-title"><strong>Order summary</strong></h3>
+                    </div>*@
+                    <div class="panel-body">
+
+                        <table class="table table-condensed" id="countit">
+                            <thead>
+                                <tr>
+                                    <th><strong style="font-size:12px; font-weight:bold">S.No</strong></th>
+                                    <th><strong style="font-size:12px; font-weight:bold; white-space: nowrap;">Tender Code</strong></th>
+                                    <th class="text-left"><strong style="font-size:12px; font-weight:bold">Prod Reg #</strong></th>
+                                    <th><strong style="font-size:12px; font-weight:bold">Products</strong></th>
+                                    <th><strong style="font-size:12px; font-weight:bold">Pack</strong></th>
+                                    <th><strong style="font-size:12px; font-weight:bold">A/c Unit</strong></th>
+                                    <th><strong style="font-size:12px; font-weight:bold">Qty</strong></th>
+                                    <th><strong style="font-size:12px; font-weight:bold">Batch</strong></th>
+                                    <th><strong style="font-size:12px; font-weight:bold">MFG</strong></th>
+                                    <th><strong style="font-size:12px; font-weight:bold">EXP</strong></th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @for (int y = 0; y < Model.LstDeliveryChallanDetails.Count(); y++)
+                                {
+                                    int z = y + 1;
+                                <tr>
+                                    <td style="font-size:12px; font-weight:bold;">@z.ToString()</td>
+                                    <td style="font-size:12px; font-weight:bold; width:1px; white-space:nowrap">@Model.LstDeliveryChallanDetails[y].TenderCode</td>
+                                    <td class="text-left" style="font-size:12px; font-weight:bold">@Model.LstDeliveryChallanDetails[y].ProdRegNum</td>
+                                    <td style="font-size:12px; font-weight:bold; width:1px; white-space:nowrap">@Model.LstDeliveryChallanDetails[y].ProductBrandName <br /> (@Model.LstDeliveryChallanDetails[y].ProductGenericName)</td>
+                                    <td style="font-size:12px; font-weight:bold">@Model.LstDeliveryChallanDetails[y].Pack</td>
+                                    <td style="font-size:12px; font-weight:bold">@Model.LstDeliveryChallanDetails[y].AcUnit</td>
+                                    <td style="font-size:12px; font-weight:bold">@Model.LstDeliveryChallanDetails[y].PurchasesQty</td>
+                                    <td style="font-size:12px; font-weight:bold">@Model.LstDeliveryChallanDetails[y].Batch</td>
+                                    <td style="font-size:12px; font-weight:bold">@Model.LstDeliveryChallanDetails[y].MFG</td>
+                                    <td style="font-size:12px; font-weight:bold">@Model.LstDeliveryChallanDetails[y].EXP</td>
+
+                                </tr>
+                                }
+                                <tr>
+
+                                    <td class="thick-line"></td>
+                                    <td class="thick-line"></td>
+                                    <td class="thick-line"></td>
+                                    <td class="thick-line"></td>
+                                    <td class="thick-line"></td>
+                                    <td class="thick-line"></td>
+                                    <td class="thick-line"></td>
+                                    <td class="thick-line"></td>
+                                    <td class="thick-line"></td>
+                                    <td class="thick-line"></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+        </div><br>
+        <br>
+
+        <div class="row">
+            <div class="col-xs-6 text-left">
+                <address>
+                    <strong>__________________________</strong><br>
+
+                    <strong>For: SHADANI ENTERPRISES</strong>
+                </address>
+            </div>
+            <div class="col-xs-6 text-right">
+                <address>
+                    <strong>_________________________</strong><br>
+
+                    <strong>Receiver Signed & Stamped</strong>
+                </address>
+            </div>
+
+        </div>
+        @for (int x = 0; x < Model.LstDeliveryChallan.Count(); x++)
+
+        {
+            if (Model.LstDeliveryChallan[x].Warranty == "Yes")
+            {
+
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div style="width: 900px; border: 2px solid black; padding: 25px; margin: auto">I Jai Parkash being a person resident in Pakistan caryying on business at under the name Shadani Enterprises, do here by give this warranty that the drugs described as sold in the invoice do not contrivance in any way the provision of section 23 of the Drugs Act 1976.<br /><br />* Expired products shall not be taken back unless written intimation is given six (06) months before the expiry date. <br />* Please check for batch no. leaking, breaking, shortage, & discount before the goods have been delivered</div>
+
+                    </div>
+                </div>
+
+            }
+
+            else
+            {
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div style="width: 900px; margin:auto">&nbsp;</div>
+
+                    </div>
+                </div>
+            }
+
+
+        }
+
+    </div>
+
+
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  
+</body>
+</html>

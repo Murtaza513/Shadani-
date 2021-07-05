@@ -1,0 +1,549 @@
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\ApplicationInsights.config
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\ShadaniEnterprises.dll.config
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\ShadaniEnterprises.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\ShadaniEnterprises.pdb
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csc.exe
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csc.exe.config
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csc.rsp
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csi.exe
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csi.exe.config
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csi.rsp
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.Managed.Core.targets
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.AppContext.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Collections.Immutable.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Console.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.IO.Compression.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.IO.FileSystem.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.IO.Pipes.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Reflection.Metadata.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.AccessControl.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Claims.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Principal.Windows.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.ValueTuple.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Xml.XmlDocument.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Xml.XPath.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\vbc.exe
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\vbc.exe.config
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\vbc.rsp
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\VBCSCompiler.exe
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\VBCSCompiler.exe.config
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Antlr3.Runtime.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.Agent.Intercept.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.DependencyCollector.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.Web.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.WindowsServer.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.ApplicationInsights.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.Web.Infrastructure.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Newtonsoft.Json.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Diagnostics.DiagnosticSource.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Helpers.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Mvc.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Optimization.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Razor.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.Deployment.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.Razor.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\WebGrease.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Helpers.xml
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Mvc.xml
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Optimization.xml
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Razor.xml
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.xml
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.Deployment.xml
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.Razor.xml
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Newtonsoft.Json.xml
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Antlr3.Runtime.pdb
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Diagnostics.DiagnosticSource.xml
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.DependencyCollector.xml
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.WindowsServer.xml
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.Web.xml
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\obj\Release\ShadaniEnterprises.dll
+D:\ShadaniEnterprises data\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\obj\Release\ShadaniEnterprises.pdb
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\ApplicationInsights.config
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\ShadaniEnterprises.dll.config
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\ShadaniEnterprises.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\ShadaniEnterprises.pdb
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csc.exe
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csc.exe.config
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csc.rsp
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csi.exe
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csi.exe.config
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csi.rsp
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.Managed.Core.targets
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.AppContext.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Collections.Immutable.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Console.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.IO.Compression.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.IO.FileSystem.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.IO.Pipes.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Reflection.Metadata.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.AccessControl.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Claims.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Principal.Windows.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.ValueTuple.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Xml.XmlDocument.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Xml.XPath.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\vbc.exe
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\vbc.exe.config
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\vbc.rsp
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\VBCSCompiler.exe
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\VBCSCompiler.exe.config
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Antlr3.Runtime.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.Agent.Intercept.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.DependencyCollector.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.Web.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.WindowsServer.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.ApplicationInsights.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.Web.Infrastructure.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Newtonsoft.Json.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Diagnostics.DiagnosticSource.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Helpers.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Mvc.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Optimization.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Razor.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.Deployment.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.Razor.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\WebGrease.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Helpers.xml
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Mvc.xml
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Optimization.xml
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Razor.xml
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.xml
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.Deployment.xml
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.Razor.xml
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Newtonsoft.Json.xml
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Antlr3.Runtime.pdb
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Diagnostics.DiagnosticSource.xml
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.DependencyCollector.xml
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.WindowsServer.xml
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.Web.xml
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\obj\Release\ShadaniEnterprises.dll
+D:\ShadaniEnterprises data\Release 1\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\obj\Release\ShadaniEnterprises.pdb
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\ApplicationInsights.config
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\ShadaniEnterprises.dll.config
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\ShadaniEnterprises.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\ShadaniEnterprises.pdb
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csc.exe
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csc.exe.config
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csc.rsp
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csi.exe
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csi.exe.config
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csi.rsp
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.Managed.Core.targets
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.AppContext.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Collections.Immutable.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Console.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.IO.Compression.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.IO.FileSystem.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.IO.Pipes.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Reflection.Metadata.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.AccessControl.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Claims.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Principal.Windows.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.ValueTuple.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Xml.XmlDocument.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Xml.XPath.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\vbc.exe
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\vbc.exe.config
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\vbc.rsp
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\VBCSCompiler.exe
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\VBCSCompiler.exe.config
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\Antlr3.Runtime.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.Agent.Intercept.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.DependencyCollector.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.Web.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.WindowsServer.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.ApplicationInsights.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.Web.Infrastructure.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\Newtonsoft.Json.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\System.Diagnostics.DiagnosticSource.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\System.Net.Http.Formatting.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Helpers.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Http.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Mvc.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Optimization.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Razor.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.Deployment.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.Razor.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\WebGrease.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\System.Net.Http.Formatting.xml
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Http.xml
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Helpers.xml
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Mvc.xml
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Optimization.xml
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Razor.xml
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.xml
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.Deployment.xml
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.Razor.xml
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\Newtonsoft.Json.xml
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\Antlr3.Runtime.pdb
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\System.Diagnostics.DiagnosticSource.xml
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.DependencyCollector.xml
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.WindowsServer.xml
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.Web.xml
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\obj\Release\ShadaniEnterprises.csprojResolveAssemblyReference.cache
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\obj\Release\ShadaniEnterprises.dll
+D:\ShadaniEnterprises data\Release 2\Shadani Release 2 Final\ShadaniEnterprises\ShadaniEnterprises\obj\Release\ShadaniEnterprises.pdb
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\ApplicationInsights.config
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\ShadaniEnterprises.dll.config
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\ShadaniEnterprises.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\ShadaniEnterprises.pdb
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csc.exe
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csc.exe.config
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csc.rsp
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csi.exe
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csi.exe.config
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csi.rsp
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.Managed.Core.targets
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.AppContext.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Collections.Immutable.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Console.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.IO.Compression.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.IO.FileSystem.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.IO.Pipes.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Reflection.Metadata.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.AccessControl.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Claims.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Principal.Windows.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.ValueTuple.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Xml.XmlDocument.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Xml.XPath.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\vbc.exe
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\vbc.exe.config
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\vbc.rsp
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\VBCSCompiler.exe
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\VBCSCompiler.exe.config
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Antlr3.Runtime.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.Agent.Intercept.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.DependencyCollector.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.Web.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.WindowsServer.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.ApplicationInsights.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.Web.Infrastructure.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Newtonsoft.Json.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Diagnostics.DiagnosticSource.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Net.Http.Formatting.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Helpers.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Http.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Mvc.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Optimization.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Razor.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.Deployment.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.Razor.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\WebGrease.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Net.Http.Formatting.xml
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Http.xml
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Helpers.xml
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Mvc.xml
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Optimization.xml
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Razor.xml
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.xml
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.Deployment.xml
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.Razor.xml
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Newtonsoft.Json.xml
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Antlr3.Runtime.pdb
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\System.Diagnostics.DiagnosticSource.xml
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.DependencyCollector.xml
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.WindowsServer.xml
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.Web.xml
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\obj\Release\ShadaniEnterprises.csprojResolveAssemblyReference.cache
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\obj\Release\ShadaniEnterprises.dll
+D:\ShadaniEnterprises data\Release 2\final\ShadaniEnterprises\ShadaniEnterprises\ShadaniEnterprises\obj\Release\ShadaniEnterprises.pdb
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\ApplicationInsights.config
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\ShadaniEnterprises.dll.config
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\ShadaniEnterprises.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\ShadaniEnterprises.pdb
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csc.exe
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csc.exe.config
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csc.rsp
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csi.exe
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csi.exe.config
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csi.rsp
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.AppContext.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Console.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.IO.Compression.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.IO.Pipes.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Claims.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.ValueTuple.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Xml.XPath.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\vbc.exe
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\vbc.exe.config
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\vbc.rsp
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\Antlr3.Runtime.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.Web.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.ApplicationInsights.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\Newtonsoft.Json.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\System.Net.Http.Formatting.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Helpers.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Http.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Mvc.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Optimization.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Razor.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.Deployment.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.Razor.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\WebGrease.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\System.Net.Http.Formatting.xml
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Http.xml
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Helpers.xml
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Mvc.xml
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Optimization.xml
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Razor.xml
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.xml
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.Deployment.xml
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.Razor.xml
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\Newtonsoft.Json.xml
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\Antlr3.Runtime.pdb
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.Web.xml
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\obj\Release\ShadaniEnterprises.csprojAssemblyReference.cache
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\obj\Release\ShadaniEnterprises.csproj.CopyComplete
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\obj\Release\ShadaniEnterprises.dll
+C:\Users\HP\Documents\Shadani\Shadani Backup unitl Financial Work\ShadaniEnterprises\ShadaniEnterprises\obj\Release\ShadaniEnterprises.pdb
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\ApplicationInsights.config
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\ShadaniEnterprises.dll.config
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\ShadaniEnterprises.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\ShadaniEnterprises.pdb
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csc.exe
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csc.exe.config
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csc.rsp
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csi.exe
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csi.exe.config
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\csi.rsp
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.AppContext.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Console.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.IO.Compression.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.IO.Pipes.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Claims.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.ValueTuple.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Xml.XPath.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\vbc.exe
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\vbc.exe.config
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\vbc.rsp
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\VBCSCompiler.exe
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\Antlr3.Runtime.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.Web.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.ApplicationInsights.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\Newtonsoft.Json.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\System.Net.Http.Formatting.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Helpers.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Http.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Mvc.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Optimization.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Razor.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.Razor.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\WebGrease.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\System.Net.Http.Formatting.xml
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Http.xml
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Helpers.xml
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Mvc.xml
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Optimization.xml
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.Razor.xml
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.xml
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\System.Web.WebPages.Razor.xml
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\Newtonsoft.Json.xml
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\Antlr3.Runtime.pdb
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.AI.Web.xml
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\obj\Release\ShadaniEnterprises.csprojResolveAssemblyReference.cache
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\obj\Release\ShadaniEnterprises.dll
+C:\Users\jytesh.punjwani\Documents\ShadaniEnterprises\ShadaniEnterprises\obj\Release\ShadaniEnterprises.pdb

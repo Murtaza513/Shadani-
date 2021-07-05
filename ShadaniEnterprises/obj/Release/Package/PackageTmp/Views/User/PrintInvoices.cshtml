@@ -1,0 +1,358 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+@model ShadaniEnterprises.Models.InvoiceBillsList
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Print Invoice</title>
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+    <style>
+
+
+        .invoice-title h2, .invoice-title h3 {
+            display: inline-block;
+        }
+
+        .table > tbody > tr > .no-line {
+            border-top: none;
+        }
+
+        .table > thead > tr > .no-line {
+            border-bottom: none;
+        }
+
+        .table > tbody > tr > .thick-line {
+            border-top: 2px solid;
+        }
+
+        .panel-footer {
+            text-align: center;
+            position: relative;
+        }
+
+            .panel-footer .right {
+                position: absolute;
+                right: 0;
+                /* vertically center the icon */
+                top: 50%;
+                transform: translateY(-50%);
+            }
+            .panel-footer .left {
+                position: absolute;
+                left: 0;
+                /* vertically center the icon */
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
+            .panel-footer p {
+                font-size: medium;
+                padding: 0 20px; /* leave space for the icon adjust this value depending on how big your icon is */
+            }
+    </style>
+</head>
+<body style="overflow:hidden;">
+    <div class="container">
+        <div class="row">
+            <br><br>
+            @for (int x = 0; x < Model.LstInvoices.Count(); x++)
+
+            {
+                if (Model.LstInvoices[x].InvoiceType == "Private")
+                {
+
+                    <div style="width:900px; text-align:center; overflow:hidden">
+                        <div style="width: 150px; border: 2px solid black; display:inline-block; vertical-align:middle; padding: 25px;">GST# 1703999931964</div>
+                        <div style="width: 150px; border: 2px solid black; display:inline-block; vertical-align:middle; padding: 25px;">NTN# 3161164-8</div>
+                        <div style="width: 165px; border: 2px solid black; display:inline-block; vertical-align:middle; padding: 25px;">CNIC # <br /> 45102-1418144-9</div>
+                        <div style="width: auto; border: 2px solid black; display:inline-block; vertical-align:middle; padding: 6px;">Title: Shadani Enterprises<br />Acc # 0010026880790016<br />Allied Bank Limited (Branch Code 0396)<br />Gulistan-e-Jauhar Block-19, Karachi.</div>
+                    </div><br />
+
+
+                }
+                else
+                {
+                    <div></div>
+                }
+
+
+
+                <div class="col-xs-12">
+                    <div class="panel-footer">
+                        <img src="../../img/2.png" alt='logo' class="left">
+                        <p style="font-size:16px; font-weight:bold">SHADANI ENTERPRISES</p> <p style="font-size:12px; font-weight:bold"> R-96, Evacuee Society, Gulshan-e-Iqbal, Block 10-A, Karachi. <br /> Ph: 021-34156849  www.shadanienterprises.com</p>
+                        <h2 class="right" style="font-size:20px; font-weight:bold">Invoice / Bills</h2>
+                    </div><br />
+
+                    <div class="invoice-title">
+                        
+                        <strong>Order Number: @Model.LstInvoices[x].CustOrderNum</strong>
+                        <strong class="pull-right">Invoice No: @Model.LstInvoices[x].InvoiceNumber</strong>
+                    </div>
+                    <div class="invoice-title">
+                        
+                        <strong>Order Date: @Model.LstInvoices[x].OrderDate</strong>
+                        <strong class="pull-right">Invoice Date: @Model.LstInvoices[x].InvoiceDate</strong>
+                    </div>
+
+                    <div class="invoice-title">
+                        <strong>Customer Name: @Model.LstInvoices[x].CustomerName</strong>
+
+                    </div>
+                    <div class="invoice-title">
+                        <strong>Address: @Model.LstInvoices[x].Address1</strong><br />
+                        <strong>@Model.LstInvoices[x].Address2</strong>
+
+                    </div>
+
+
+                    @*<div class="row">
+                        <div class="col-xs-12 text-center">
+
+                            <h2>@Model.LstInvoices[x].CustomerName</h2><br>
+
+                        </div>
+                    </div>*@
+
+                </div>
+            }
+        </div>
+
+        <div class="row" style="margin-top:8px">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    @*<div class="panel-heading">
+                        <h3 class="panel-title"><strong>Order summary</strong></h3>
+                    </div>*@
+                    <div class="panel-body">
+                        <div>
+                            <table class="table table-condensed" id="countit">
+                                <thead>
+                                    <tr>
+                                        <th><strong style="font-size:12px; font-weight:bold">S.No</strong></th>
+                                        <th><strong style="font-size:12px; font-weight:bold; white-space: nowrap;">Tender Code</strong></th>
+                                        <th class="text-left"><strong style="font-size:12px; font-weight:bold">Prod Reg #</strong></th>
+                                        <th><strong style="font-size:12px; font-weight:bold">Products</strong></th>
+                                        <th><strong style="font-size:12px; font-weight:bold">Pack</strong></th>
+                                        <th><strong style="font-size:12px; font-weight:bold">A/c Unit</strong></th>
+                                        <th><strong style="font-size:12px; font-weight:bold">Qty</strong></th>
+                                        <th><strong style="font-size:12px; font-weight:bold">Batch</strong></th>
+                                        <th><strong style="font-size:12px; font-weight:bold">EXP</strong></th>
+                                        <th><strong style="font-size:12px; font-weight:bold">Rate</strong></th>
+                                        <th><strong style="font-size:12px; font-weight:bold">Amount</strong></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @for (int y = 0; y < Model.LstInvoicesDetails.Count(); y++)
+                                    {
+                                        int z = y + 1;
+                                    <tr>
+                                        <td style="font-size:12px; font-weight:bold;">@z.ToString()</td>
+                                        <td style="font-size:12px; font-weight:bold; width:1px; white-space:nowrap">@Model.LstInvoicesDetails[y].TenderCode</td>
+                                        <td class="text-left" style="font-size:12px; font-weight:bold">@Model.LstInvoicesDetails[y].ProdRegNum</td>
+                                        <td style="font-size:12px; font-weight:bold; width:1px; white-space:nowrap">@Model.LstInvoicesDetails[y].ProductBrandName <br /> (@Model.LstInvoicesDetails[y].ProductGenericName)</td>
+                                        <td style="font-size:12px; font-weight:bold">@Model.LstInvoicesDetails[y].Pack</td>
+                                        <td style="font-size:12px; font-weight:bold">@Model.LstInvoicesDetails[y].AcUnit</td>
+                                        <td style="font-size:12px; font-weight:bold">@Model.LstInvoicesDetails[y].PurchasesQty</td>
+                                        <td style="font-size:12px; font-weight:bold">@Model.LstInvoicesDetails[y].Batch</td>
+
+                                        <td style="font-size:12px; font-weight:bold">@Model.LstInvoicesDetails[y].EXP</td>
+                                        <td style="font-size:12px; font-weight:bold">@Model.LstInvoicesDetails[y].PurchaseRate</td>
+                                        <td class="count-me" style="font-size:12px; font-weight:bold">@Model.LstInvoicesDetails[y].Amout</td>
+                                    </tr>
+
+                                    }
+                                    <tr>
+                                        <td class="thick-line"></td>
+                                        <td class="thick-line"></td>
+                                        <td class="thick-line"></td>
+                                        <td class="thick-line"></td>
+                                        <td class="thick-line"></td>
+                                        <td class="thick-line"></td>
+                                        <td class="thick-line"></td>
+                                        <td class="thick-line"></td>
+                                        <td class="thick-line"></td>
+                                        <td class="thick-line"><strong style="font-size:12px; font-weight:bold; padding-right:10px">Total</strong></td>
+                                        <td class="thick-line"><span id="grandTotal" style="font-size:12px; font-weight:bold; padding-right:7px"></span></td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                            @*<div style="text-align: center;">
+                                <span id="inWords" style="align-self:center"></span>
+                            </div>*@
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <span id="inWords"></span>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-xs-6 text-left">
+                <address>
+                    <strong>__________________________</strong><br>
+
+                    <strong>For: SHADANI ENTERPRISES</strong>
+                </address>
+            </div>
+            <div class="col-xs-6 text-right">
+                <address>
+                    <strong>_________________________</strong><br>
+
+                    <strong>Receiver Signed & Stamped</strong>
+                </address>
+            </div>
+
+        </div>
+        @for (int x = 0; x < Model.LstInvoices.Count(); x++)
+
+        {
+            if (Model.LstInvoices[x].Warranty == "Yes")
+            {
+
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div style="width: 900px; border: 2px solid black; padding: 25px; margin: auto">I Jai Parkash being a person resident in Pakistan caryying on business at under the name Shadani Enterprises, do here by give this warranty that the drugs described as sold in the invoice do not contrivance in any way the provision of section 23 of the Drugs Act 1976.<br /><br />* Expired products shall not be taken back unless written intimation is given six (06) months before the expiry date. <br />* Please check for batch no. leaking, breaking, shortage, & discount before the goods have been delivered</div>
+
+                    </div>
+                </div>
+
+            }
+
+            else
+            {
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div style="width: 900px; margin:auto">&nbsp;</div>
+
+                    </div>
+                </div>
+            }
+
+
+        }
+
+
+    </div>
+
+
+        <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script language="javascript" type="text/javascript">
+            var tds = document.getElementById('countit').getElementsByTagName('td');
+            var sum = 0;
+            for (var i = 0; i < tds.length; i++) {
+                if (tds[i].className == 'count-me') {
+                    sum += isNaN(tds[i].innerHTML) ? 0 : parseFloat(tds[i].innerHTML);
+                }
+            }
+
+            parseInt(document.getElementById('grandTotal').innerHTML += 'PKR ' + sum.toLocaleString());
+
+            var newSum = sum.toFixed(0);
+
+            function numberToEnglish(newSum) {
+
+                var string = newSum.toString(), units, tens, scales, start, end, chunks, chunksLen, chunk, ints, i, word, words, and = 'and';
+
+                /* Remove spaces and commas */
+                string = string.replace(/[, ]/g, "");
+
+                /* Is number zero? */
+                if (parseInt(string) === 0) {
+                    return 'zero';
+                }
+
+                /* Array of units as words */
+                units = ['', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'];
+
+                /* Array of tens as words */
+                tens = ['', '', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
+
+                /* Array of scales as words */
+                scales = ['', 'thousand', 'million', 'billion', 'trillion', 'quadrillion', 'quintillion', 'sextillion', 'septillion', 'octillion', 'nonillion', 'decillion', 'undecillion', 'duodecillion', 'tredecillion', 'quatttuor-decillion', 'quindecillion', 'sexdecillion', 'septen-decillion', 'octodecillion', 'novemdecillion', 'vigintillion', 'centillion'];
+
+                /* Split user arguemnt into 3 digit chunks from right to left */
+                start = string.length;
+                chunks = [];
+                while (start > 0) {
+                    end = start;
+                    chunks.push(string.slice((start = Math.max(0, start - 3)), end));
+                }
+
+                /* Check if function has enough scale words to be able to stringify the user argument */
+                chunksLen = chunks.length;
+                if (chunksLen > scales.length) {
+                    return '';
+                }
+
+                /* Stringify each integer in each chunk */
+                words = [];
+                for (i = 0; i < chunksLen; i++) {
+
+                    chunk = parseInt(chunks[i]);
+
+                    if (chunk) {
+
+                        /* Split chunk into array of individual integers */
+                        ints = chunks[i].split('').reverse().map(parseFloat);
+
+                        /* If tens integer is 1, i.e. 10, then add 10 to units integer */
+                        if (ints[1] === 1) {
+                            ints[0] += 10;
+                        }
+
+                        /* Add scale word if chunk is not zero and array item exists */
+                        if ((word = scales[i])) {
+                            words.push(word);
+                        }
+
+                        /* Add unit word if array item exists */
+                        if ((word = units[ints[0]])) {
+                            words.push(word);
+                        }
+
+                        /* Add tens word if array item exists */
+                        if ((word = tens[ints[1]])) {
+                            words.push(word);
+                        }
+
+                        /* Add 'and' string after units or tens integer if: */
+                        if (ints[0] || ints[1]) {
+
+                            /* Chunk has a hundreds integer or chunk is the first of multiple chunks */
+                            if (ints[2] || !i && chunksLen) {
+                                words.push(and);
+                            }
+
+                        }
+
+                        /* Add hundreds word if array item exists */
+                        if ((word = units[ints[2]])) {
+                            words.push(word + ' hundred');
+                        }
+
+                    }
+
+                }
+
+                return words.reverse().join(' ');
+
+            }
+
+            document.getElementById('inWords').innerHTML = 'Amount in words: ' + numberToEnglish(newSum);
+            
+                //document.getElementById('WHT').innerHTML = parseInt(document.getElementById('grandTotal').innerHTML) * parsef(4.5);
+        </script>
+</body>
+</html>

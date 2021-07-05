@@ -1,0 +1,293 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+@model ShadaniEnterprises.Models.ProductViewModelList
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Edit Product</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="~/cssUser/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="~/cssUser/helper.css" rel="stylesheet">
+    <link href="~/cssUser/style.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:** -->
+    <!--[if lt IE 9]>
+        <script src="https:**oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https:**oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!-- Preloader - style you can find in spinners.css -->
+    <div class="preloader">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+        </svg>
+    </div>
+    @Html.Partial("_Header")
+    @Html.Partial("_Navigation")
+    <div class="page-wrapper">
+        <!-- Bread crumb -->
+        <div class="row page-titles">
+            <div class="col-md-5 align-self-center">
+                <h3 class="text-primary">Product</h3>
+            </div>
+            <div class="col-md-7 align-self-center">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="javascript:void(0)">Parameters</a></li>
+                    <li class="breadcrumb-item active">Edit Product</li>
+                </ol>
+            </div>
+        </div>
+        <!-- End Bread crumb -->
+        <!-- Container fluid  -->
+        <div class="container-fluid">
+            <!-- Start Page Content -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card card-outline-primary">
+                        <div class="card-header">
+                            <h4 class="m-b-0 text-white">Edit Product</h4>
+                        </div>
+                        <div class="card-body">
+                            @using (Html.BeginForm("EditProduct", "User", FormMethod.Post))
+                            {
+                            <form action="#">
+                                @for (int x = 0; x < Model.LstProductTableList.Count(); x++)
+                                {
+                                    <div class="form-body">
+                                        <h3 class="box-title m-t-40">Details</h3>
+                                        <hr>
+                                        <div class="row">
+                                            <input type="text" name="ProdID" value="@Model.LstProductTableList[x].TBL_Product_ID" hidden />
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label>Manufacturer Name</label>
+                                                    <select class="form-control custom-select" name="CompanyName1" id="CompanyName1" readonly>
+                                                        <option value="@Model.LstProductTableList[x].CompanyName">@Model.LstProductTableList[x].CompanyName</option>
+                                            
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 ">
+                                                <div class="form-group">
+                                                    <button type="button" class="btn btn-circle remove-attr" style="color:darkblue">Edit Manufacturer</button>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                   
+                                                    <select class="form-control custom-select" name="CompanySelect" id="CompanySelect1" required hidden>
+                                                        <option>Select</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label>Generic Name</label>
+                                                    <input type="text" name="prodGenericName" value="@Model.LstProductTableList[x].Generic_Name" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label>Brand Name</label>
+                                                    <input type="text" name="prodBrandName" value="@Model.LstProductTableList[x].Brand_Name" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label>Dosage Form</label>
+                                                    <select class="form-control custom-select" name="dosageForm">
+                                                        <option value="@Model.LstProductTableList[x].Dosage_Form">@Model.LstProductTableList[x].Dosage_Form</option>
+                                                        <option disabled>──────────</option>
+                                                        <option value="Inj">Inj</option>
+                                                        <option value="Cap">Cap</option>
+                                                        <option value="Tab">Tab</option>
+                                                        <option value="Gel">Gel</option>
+                                                        <option value="Cream">Cream</option>
+                                                        <option value="Liq">Liq</option>
+                                                        <option value="Powder">Powder</option>
+                                                        <option value="Inhaler">Inhaler</option>
+                                                        <option value="Nebulizer">Nebulizer</option>
+                                                        <option value="Other">Other</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 ">
+                                                <div class="form-group">
+                                                    <label>Strength</label>
+                                                    <input type="text" name="prodStrength" value="@Model.LstProductTableList[x].Strength" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 ">
+                                                <div class="form-group">
+                                                    <label>Drug Registration Number</label>
+                                                    <input type="text" name="drugRegNo" value="@Model.LstProductTableList[x].Drug_Registration_Number" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-3 ">
+                                                <div class="form-group">
+                                                    <label>Pack Size</label>
+                                                    <input type="text" name="packSize" value="@Model.LstProductTableList[x].Pack_Size" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-5 ">
+                                                <div class="form-group">
+                                                    <label>Group</label>
+                                                    <select class="form-control custom-select" name="group">
+                                                        <option value="@Model.LstProductTableList[x].GroupID">@Model.LstProductTableList[x].GroupName</option>
+                                                        <option disabled>──────────</option>
+                                                        @*@for (int i = 0; x < Model.LstGroupList.Count(); x++)
+                                                    {
+                                                        <option value="@Model.LstGroupList[i].TBL_Group_ID">@Model.LstGroupList[i].Group_Name</option>
+                                                    }*@
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 ">
+                                                <div class="form-group">
+                                                    <label>Other Mention Here</label>
+                                                    <input type="text" name="groupOther" value="@Model.LstProductTableList[x].Other_Mention_Here" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--/row-->
+                                        <div class="row">
+                                            @*<div class="col-md-3 ">
+                                                <div class="form-group">
+                                                    <label>Stock [Y/N]</label>
+                                                    <select class="form-control custom-select" name="prodStock" required>
+                                                        <option value="@Model.LstProductTableList[x].Stock">@Model.LstProductTableList[x].Stock</option>
+                                                        <option disabled>──────────</option>
+                                                        <option value="Y">Y</option>
+                                                        <option value="N">N</option>
+                                                    </select>
+                                                </div>
+                                            </div>*@
+                                            <div class="col-md-4 ">
+                                                <div class="form-group">
+                                                    <label>Stax [Y/N]</label>
+                                                    <select class="form-control custom-select" name="prodStax">
+                                                        <option value="@Model.LstProductTableList[x].Stax">@Model.LstProductTableList[x].Stax</option>
+                                                        <option disabled>──────────</option>
+                                                        <option value="Y">Y</option>
+                                                        <option value="N">N</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 ">
+                                                <div class="form-group">
+                                                    <label>Scheme Quantity</label>
+                                                    <input type="text" name="prodSchemeQty" value="@Model.LstProductTableList[x].Scheme_Quantity" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 ">
+                                                <div class="form-group">
+                                                    <label>Bonus</label>
+                                                    <input type="text" name="prodBonus" value="@Model.LstProductTableList[x].Bonus" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--/row-->
+                                        <div class="row">
+                                            <div class="col-md-6 ">
+                                                <div class="form-group">
+                                                    <label>Trade Price</label>
+                                                    <input type="number" min="0.00" step="0.01" name="prodTP" value="@Model.LstProductTableList[x].Trade_Price" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 ">
+                                                <div class="form-group">
+                                                    <label>M.R.P</label>
+                                                    <input type="number" min="0.00" step="0.01" name="prodMRP" value="@Model.LstProductTableList[x].MRP" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                                <div class="form-actions">
+                                    <button type="submit" class="btn btn-success"> <i class="fa fa-check"></i> Save</button>
+                                    <button type="button" class="btn btn-inverse">Cancel</button>
+                                </div>
+
+                                @if (!string.IsNullOrEmpty(ViewBag.Message))
+                                {
+                                    <script type="text/javascript">alert('@ViewBag.Message');</script>
+                                }
+                            </form>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Row -->
+            <!-- End PAge Content -->
+        </div>
+        <!-- End Container fluid  -->
+    </div>
+    <script src="~/jsUser/lib/jquery/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="~/jsUser/lib/bootstrap/js/popper.min.js"></script>
+    <script src="~/jsUser/lib/bootstrap/js/bootstrap.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="~/jsUser/jquery.slimscroll.js"></script>
+    <!--Menu sidebar -->
+    <script src="~/jsUser/sidebarmenu.js"></script>
+    <!--stickey kit -->
+    <script src="~/jsUser/lib/sticky-kit-master/dist/sticky-kit.min.js"></script>
+    <!--Custom JavaScript -->
+    <script src="~/jsUser/custom.min.js"></script>
+    <script>
+        $(function () {
+
+
+            AjaxCall('/User/GetCompany', null).done(function (response) {
+                if (response.length > 0) {
+                    $('#CompanySelect1').html('');
+                    var options = '';
+                    options += '<option value="Select">Select</option>';
+                    for (var i = 0; i < response.length; i++) {
+                        options += '<option value="' + response[i] + '">' + response[i] + '</option>';
+                    }
+                    $('#CompanySelect1').append(options);
+
+                }
+            }).fail(function (error) {
+                alert(error.StatusText);
+            });
+
+
+        });
+
+        function AjaxCall(url, data, type) {
+            return $.ajax({
+                url: url,
+                type: type ? type : 'GET',
+                data: data,
+                contentType: 'application/json'
+            });
+        }
+
+
+        $(document).ready(function () {
+            $(".remove-attr").click(function () {
+                $("#CompanySelect1").removeAttr("hidden");
+                $("#CompanyName1").attr("hidden", true);
+
+               
+            });
+        });
+
+    </script>
+</body>
+</html>

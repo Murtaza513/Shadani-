@@ -1,0 +1,756 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+@model ShadaniEnterprises.Models.PurchasesList
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Edit Purchases</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="~/cssUser/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="~/cssUser/helper.css" rel="stylesheet">
+    <link href="~/cssUser/style.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:** -->
+    <!--[if lt IE 9]>
+        <script src="https:**oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https:**oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!-- Preloader - style you can find in spinners.css -->
+    <div class="preloader">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+        </svg>
+    </div>
+    @Html.Partial("_Header")
+    @Html.Partial("_Navigation")
+    <div class="page-wrapper">
+        <!-- Bread crumb -->
+        <div class="row page-titles">
+            <div class="col-md-5 align-self-center">
+                <h3 class="text-primary">Edit Purchases</h3>
+            </div>
+            <div class="col-md-7 align-self-center">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="javascript:void(0)">Parameters</a></li>
+                    <li class="breadcrumb-item active">Edit Purchases</li>
+                </ol>
+            </div>
+        </div>
+        <!-- End Bread crumb -->
+        <!-- Container fluid  -->
+        <div class="container-fluid">
+            <!-- Start Page Content -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card card-outline-primary">
+                        <div class="card-header">
+                            <h4 class="m-b-0 text-white">Purchases</h4>
+                        </div>
+                        <div id="edit">
+                            <div class="card-body">
+
+                                <form action="#">
+                                    <div class="form-body">
+                                        <h3 class="box-title m-t-40">Details</h3>
+                                        <hr>
+                                        @for (int x = 0; x < Model.LstPurchases.Count(); x++)
+                                        {
+                                            <div class="row">
+                                                <div class="col-md-6 ">
+                                                    <div class="form-group">
+                                                        <label>Ref</label>
+                                                        <input type="text" value="@Model.LstPurchases[x].Ref" name="RefSelect" id="RefSelect" class="form-control" disabled>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 ">
+                                                    <div class="form-group">
+                                                        <label>Select Company/Manufacturer</label>
+                                                        <input type="text" value="@Model.LstPurchases[x].CompanyName" name="CompanySelect" id="CompanySelect1" class="form-control" disabled>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6 ">
+                                                    <div class="form-group">
+                                                        <label>Invoice #</label>
+                                                        <input type="text" value="@Model.LstPurchases[x].InvoiceNum" name="InvoiceNum" id="InvoiceNum" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 ">
+                                                    <div class="form-group">
+                                                        <label>Invoice Date</label>
+                                                        <input type="text" value="@Model.LstPurchases[x].InvoiceDate" name="InvoiceDate" id="InvoiceDate" class="form-control">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        }
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <div class="table-responsive m-t-40">
+                                                            <table id="tblPurchases1" class="table table-bordered table-striped bank_table" table border="1" style="table-layout:fixed;">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>Products</th>
+                                                                        <th>Pack</th>
+                                                                        <th>A/c Unit</th>
+                                                                        <th>Qty</th>
+                                                                        <th>Batch</th>
+                                                                        <th>MFG</th>
+                                                                        <th>EXP</th>
+                                                                        <th>Purchase Rate</th>
+                                                                        <th>Amount</th>
+                                                                        <th>Action</th>
+
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    @for (int y = 0; y < Model.LstPurchasesDetails.Count(); y++)
+                                                                    {
+                                                                        <tr>
+                                                                            <td hidden><input type="text" value="@Model.LstPurchasesDetails[y].PurchasesID" name="PurchaseID" id="PurchaseID" class="form-control" hidden /></td>
+                                                                            <td>
+                                                                                <select class="form-control custom-select" name="ProductSelect" id="ProductSelect1">
+                                                                                    <option value="@Model.LstPurchasesDetails[y].ProductName">@Model.LstPurchasesDetails[y].ProductName</option>
+                                                                                </select>
+                                                                            </td>
+                                                                            <td><input type="text" value="@Model.LstPurchasesDetails[y].PackVal" name="prodPackSize" id="prodPackSize" class="form-control" /></td>
+                                                                            <td><input type="text" value="@Model.LstPurchasesDetails[y].AcUnit" name="AcUnit" id="AcUnit" class="form-control" /></td>
+                                                                            <td><input type="text" value="@Model.LstPurchasesDetails[y].prodQty" name="prodQty" id="prodQty" class="form-control prodQty" /></td>
+                                                                            <td><input type="text" value="@Model.LstPurchasesDetails[y].prodBatch" name="prodBatch" id="prodBatch" class="form-control" /></td>
+                                                                            <td><input type="text" value="@Model.LstPurchasesDetails[y].prodMFG" name="prodMFG" id="prodMFG" class="form-control" /></td>
+                                                                            <td><input type="text" value="@Model.LstPurchasesDetails[y].prodEXP" name="prodEXP" id="prodEXP" class="form-control" /></td>
+
+                                                                            <td><input type="text" value="@Model.LstPurchasesDetails[y].purchaseRate" name="purchaseRate" id="purchaseRate" class="form-control purchaseRate" /></td>
+                                                                            <td><input type="text" value="@Model.LstPurchasesDetails[y].amount" name="amount" id="amount" class="form-control amount" disabled /></td>
+                                                                            <td><button type="button" value="@Model.LstPurchasesDetails[y].ProductName" name="RemoveProd" id="RemoveProd" class="btn btn-danger btn-simple btn-xs RemoveProd">Remove</button></td>
+
+
+                                                                        </tr>
+                                                                    }
+                                                                </tbody>
+                                                            </table>
+                                                            <div style="font-weight: bold; text-align:left">Grand total: <span id="grandTotal"></span></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--/row-->
+                                        <!--/row-->
+                                    </div>
+                                    <div class="form-actions">
+
+                                        <button type="button" id="sendServer" name="sendServer" class="btn btn-success"> <i class="fa fa-check"></i> Save</button>
+                                        <button type="button" class="btn btn-inverse" onclick=" window.location.href ='@Url.Action("PurchasesView", "User")'">Cancel</button>
+                                    </div>
+                                </form>
+                                @*<lable id="lblOrderValue"></lable>
+                <lable id="lblNetPayable"></lable>*@
+
+                            </div>
+                        </div>
+                        <div id="addNew" style="display:none">
+                            <form action="#">
+                                <div class="form-body forminput">
+                                    <h3 class="box-title m-t-40">Details</h3>
+                                    <hr>
+                                    @for (int x = 0; x < Model.LstPurchases.Count(); x++)
+                                    {
+                                        <div class="row">
+                                            <div class="col-md-4 ">
+                                                <div class="form-group">
+                                                    <label>Order Ref</label>
+                                                    <input type="text" value="@Model.LstPurchases[x].Ref" name="Reference" id="Reference" class="form-control" disabled>
+                                                 
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 ">
+                                                <div class="form-group">
+                                                    <label>Invoice Date</label>
+                                                    <input type="date" value="@Model.LstPurchases[x].InvoiceDate" name="InvDate" id="InvDate" class="form-control" disabled>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 ">
+                                                <div class="form-group">
+                                                    <label>Invoice #</label>
+                                                    <input type="text" value="@Model.LstPurchases[x].InvoiceNum" name="InvNum" id="InvNum" class="form-control" disabled>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6 ">
+                                                <div class="form-group">
+                                                    <label>Select Company/Manufacturer</label>
+                                                    <input type="text" value="@Model.LstPurchases[x].CompanyName" name="Comp" id="Comp" class="form-control" disabled>
+                                                   
+                                                </div>
+                                            </div>
+                                        </div>
+                                    }
+                                        <div class="row">
+                                            <div class="col-md-4 ">
+                                                <div class="form-group">
+                                                    <label>Products</label>
+                                                    <select class="form-control custom-select" id="Prods">
+                                                        <option>Select</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 ">
+                                                <div class="form-group">
+                                                    <label>Pack</label>
+                                                    <input type="text" name="prodPack" id="prodPack" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 ">
+                                                <div class="form-group">
+                                                    <label>A/c Unit</label>
+                                                    <input type="text" name="ProdAcUnit" id="ProdAcUnit" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4 ">
+                                                <div class="form-group">
+                                                    <label>Quantity</label>
+                                                    <input type="text" name="prodQuaty" id="prodQuaty" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 ">
+                                                <div class="form-group">
+                                                    <label>Batch</label>
+                                                    <input type="text" name="prodBatchNum" id="prodBatchNum" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 ">
+                                                <div class="form-group">
+                                                    <label>Purchase Rate</label>
+                                                    <input type="number" min="0.0" name="ProdpurchaseRate" id="ProdpurchaseRate" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--/row-->
+                                        <div class="row">
+                                            <div class="col-md-4 ">
+                                                <div class="form-group">
+                                                    <label>MFG</label>
+                                                    <input type="month" name="prodMFGDate" id="prodMFGDate" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 ">
+                                                <div class="form-group">
+                                                    <label>EXP</label>
+                                                    <input type="month" name="prodEXPDate" id="prodEXPDate" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 ">
+                                                <div class="form-group">
+                                                    <label>Amount</label>
+                                                    <input type="text" name="Prodamount" id="Prodamount" class="form-control" disabled>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--/row-->
+                                    </div>
+                                <div class="form-actions">
+                                    <button type="button" id="btnAdd" class="btn btn-success"> <i class="fa fa-check"></i>Add</button>
+                                </div>
+                            </form>
+                            <div class="container-fluid">
+                                <!-- Start Page Content -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="table-responsive m-t-40">
+                                                    <table id="tblPurchasesForView" class="table table-bordered table-striped">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Products</th>
+                                                                <th>Pack</th>
+                                                                <th>A/c Unit</th>
+                                                                <th>Qty</th>
+                                                                <th>Batch</th>
+                                                                <th>MFG</th>
+                                                                <th>EXP</th>
+                                                                <th>Purchase Rate</th>
+                                                                <th>Amount</th>
+                                                                <th>Action</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            @for (int y = 0; y < Model.LstPurchasesDetails.Count(); y++)
+                                                            {
+                                                                <tr>
+                                                                    @*<td hidden><input type="text" value="@Model.LstPODataFetch[y].PurchaseOrderID" name="PurchaseID" id="PurchaseID" class="form-control" hidden /></td>*@
+                                                                    <td>@Model.LstPurchasesDetails[y].ProductName</td>
+                                                                    <td>@Model.LstPurchasesDetails[y].PackVal</td>
+                                                                    <td>@Model.LstPurchasesDetails[y].AcUnit</td>
+                                                                    <td>@Model.LstPurchasesDetails[y].prodQty</td>
+                                                                    <td>@Model.LstPurchasesDetails[y].prodBatch</td>
+                                                                    <td>@Model.LstPurchasesDetails[y].prodMFG</td>
+                                                                    <td>@Model.LstPurchasesDetails[y].prodEXP</td>
+                                                                    <td>@Model.LstPurchasesDetails[y].purchaseRate</td>
+                                                                    <td>@Model.LstPurchasesDetails[y].amount</td>
+                                                                    <td><input type="button" class="btn btn-danger btn-simple btn-xs" value="Remove" disabled></td>
+                                                                    @*if delete required just uncomment this*@
+                                                                    @*<td><input type="button" class="btn btn-danger btn-simple btn-xs" value="Remove" onclick="Remove(this);"></td>*@
+
+
+                                                                </tr>
+                                                            }
+
+
+                                                        </tbody>
+                                                    </table>
+                                                    <table id="tblPurchases" class="table table-bordered table-striped">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Products</th>
+                                                                <th>Pack</th>
+                                                                <th>A/c Unit</th>
+                                                                <th>Qty</th>
+                                                                <th>Batch</th>
+                                                                <th>MFG</th>
+                                                                <th>EXP</th>
+                                                                <th>Purchase Rate</th>
+                                                                <th>Amount</th>
+                                                                <th>Action</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            @*<tr>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td class="td-actions text-right">
+                                                    <button type="submit" rel="tooltip" title="Delete" value="Remove" name="Remove" class="btn btn-danger btn-simple btn-xs" onclick="Remove(this)">
+                                                        <i class="material-icons">Remove</i>
+                                                    </button>
+                                                </td>
+                                            </tr>*@
+
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-actions">
+
+                                    <button type="button" id="addNewRow" name="addNewRow" class="btn btn-success"> <i class="fa fa-check"></i> Save</button>
+
+                                </div>
+                                <!-- End PAge Content -->
+                            </div>
+                        </div>
+                        <div class="form-actions">
+                            <button type="button" style="float:right" id="Button1" name="Addnew" class="btn btn-success" onclick="switchVisible();"> <i class="fa favourite-menu-details"></i>Add New</button>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <!-- Row -->
+            <!-- End PAge Content -->
+        </div>
+        <!-- End Container fluid  -->
+    </div>
+
+    <script src="~/jsUser/lib/jquery/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="~/jsUser/lib/bootstrap/js/popper.min.js"></script>
+    <script src="~/jsUser/lib/bootstrap/js/bootstrap.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="~/jsUser/jquery.slimscroll.js"></script>
+    <!--Menu sidebar -->
+    <script src="~/jsUser/sidebarmenu.js"></script>
+    <!--stickey kit -->
+    <script src="~/jsUser/lib/sticky-kit-master/dist/sticky-kit.min.js"></script>
+    <!--Custom JavaScript -->
+    <script src="~/jsUser/custom.min.js"></script>
+    <script type="text/javascript">
+
+        function switchVisible() {
+            if (document.getElementById('edit')) {
+
+                if (document.getElementById('edit').style.display == 'none') {
+                    document.getElementById('edit').style.display = 'block';
+                    document.getElementById('addNew').style.display = 'none';
+                    document.getElementById('Button1').innerText = 'Add New';
+                }
+                else {
+
+                    document.getElementById('edit').style.display = 'none';
+                    document.getElementById('addNew').style.display = 'block';
+                    document.getElementById('Button1').innerText = 'Cancel';
+                }
+            }
+        }
+
+        $(document).on("keyup", ".bank_table input", function () {
+            $(this).trigger("recalc");
+        });
+        
+        $(document).on("recalc", ".bank_table tr", function () {
+            var total = +$(this).find(".prodQty").val() * +$(this).find(".purchaseRate").val();
+            $(this).find(".amount").val(total.toFixed(2));
+        });
+
+        $(document).on("recalc", ".bank_table", function () {
+            var grandTotal = 0;
+            $(this).find(".amount").each(function () {
+                grandTotal += +$(this).val();
+            });
+            $("#grandTotal").text(grandTotal.toFixed(2));
+        });
+
+        $(".bank_table").trigger("recalc");
+        $(function () {
+
+        $(function () {
+            var country = $('#Reference').val();
+            var obj = { Company: country };
+            $.ajax({
+                url: "/User/GetDataBasedOnRef",
+                method: "POST",
+                data: obj,
+                success: function (response) {
+                    console.log(response);
+                    if (response.length > 0) {
+                        $('#Comp').html('');
+                        var options = '';
+                        options += '<option value="Select">Select</option>';
+                        for (var i = 0; i < response.length; i++) {
+                            options += '<option value="' + response[i] + '">' + response[i] + '</option>';
+                        }
+                        $('#Comp').append(options);
+
+                    }
+                }
+            })
+        });
+
+        $(function () {
+            var country = $('#Comp').val();
+            var Ref = $('#Reference').val();
+            var obj = { Company: country, Ref: Ref };
+            $.ajax({
+                url: "/User/GetProductsDataBasedOnCompany",
+                method: "POST",
+                data: obj,
+                success: function (response) {
+                    console.log(response);
+                    if (response.length > 0) {
+                        $('#Prods').html('');
+                        var options = '';
+                        options += '<option value="Select">Select</option>';
+                        for (var i = 0; i < response.length; i++) {
+                            options += '<option value="' + response[i] + '">' + response[i] + '</option>';
+                        }
+                        $('#Prods').append(options);
+
+                    }
+                }
+            })
+        });
+
+        $('#Prods').on("change", function () {
+            var Product = $('#Prods').val();
+            var Ref = $('#Reference').val();
+            var obj = { ProductName: Product, Ref: Ref };
+            $.ajax({
+                url: "/User/GetProdDetailsBasedOnCompany",
+                method: "POST",
+                data: obj,
+                success: function (response) {
+                    console.log(response);
+                    if (response.length > 0) {
+                        $("#prodPack").val(response[0]);
+                        $("#prodQuaty").val(response[1]);
+                        $("#ProdpurchaseRate").val(response[2]);
+                        $("#Prodamount").val(response[3]);
+                    }
+                }
+            })
+        });
+
+        });
+
+        $(document).on("click", "button[name=RemoveProd]", function () {
+
+            var removeProd = $(this).val()
+            var proBatch = $('#prodBatch').val()
+            console.log(removeProd);
+            var obj = { ProductName: removeProd, ProductBatch: proBatch };
+            $.ajax({
+                url: "/User/DeleteProductFromTablePurchases",
+                method: "POST",
+                data: obj,
+                success: function (response) {
+                    console.log(response);
+                    alert('Product Removed Successfully');
+                    window.location.reload(true);
+                },
+                fail: function (response) {
+                    console.log(response);
+                    alert('Error Product not deleted see inner exception');
+                }
+
+            });
+        });
+
+        function AjaxCall(url, data, type) {
+            return $.ajax({
+                url: url,
+                type: type ? type : 'GET',
+                data: data,
+                contentType: 'application/json'
+            });
+        }
+
+
+        $("#prodQuaty,#ProdpurchaseRate").keyup(function () {
+            var qtyRate = ($('#prodQuaty').val() * $('#ProdpurchaseRate').val());
+            $('#Prodamount').val(qtyRate.toFixed(2));
+        });
+
+        $("body").on("click", "#btnAdd", function () {
+            //Auto Generated Text Boxes
+            var ProductsToPurchase = $("#Prods");
+            var prodPackSize = $("#prodPack");
+            var AcUnit = $("#ProdAcUnit");
+            var prodQty = $("#prodQuaty");
+            var prodBatch = $("#prodBatchNum");
+            var prodMFG = $("#prodMFGDate");
+            var prodEXP = $("#prodEXPDate");
+            var purchaseRate = $("#ProdpurchaseRate");
+            var amount = $("#Prodamount");
+
+            //Get the reference of the Table's TBODY element.
+            var tBody = $("#tblPurchases > TBODY")[0];
+
+            //Add Row.
+            var row = tBody.insertRow(-1);
+
+            // Auto Generated Cells Added.
+            var cell = $(row.insertCell(-1));
+            cell.html(ProductsToPurchase.val());
+
+            cell = $(row.insertCell(-1));
+            cell.html(prodPackSize.val());
+
+            cell = $(row.insertCell(-1));
+            cell.html(AcUnit.val());
+
+            //Add GenericName cell.
+            cell = $(row.insertCell(-1));
+            cell.html(prodQty.val());
+
+            cell = $(row.insertCell(-1));
+            cell.html(prodBatch.val());
+
+            cell = $(row.insertCell(-1));
+            cell.html(prodMFG.val());
+            //Brand Name cell.
+            cell = $(row.insertCell(-1));
+            cell.html(prodEXP.val());
+            //Prod Strength cell.
+            cell = $(row.insertCell(-1));
+            cell.html(purchaseRate.val());
+
+            cell = $(row.insertCell(-1));
+            cell.html(amount.val());
+            //Add Button cell.
+
+            cell = $(row.insertCell(-1));
+            var btnRemove = $("<input />");
+            btnRemove.attr("type", "button");
+            btnRemove.attr("class", "btn btn-danger btn-simple btn-xs");
+            btnRemove.attr("onclick", "Remove(this);");
+            btnRemove.val("Remove");
+            cell.append(btnRemove);
+
+            //Clear the TextBoxes.
+            ProductsToPurchase.val("");
+            prodPackSize.val("");
+            AcUnit.val("");
+            prodQty.val("");
+            prodBatch.val("");
+            prodMFG.val("");
+            prodEXP.val("");
+            purchaseRate.val("");
+            amount.val("");
+        });
+        function Remove(button) {
+            //Determine the reference of the Row using the Button.
+            var row = $(button).closest("TR");
+            var name = $("TD", row).eq(0).html();
+            if (confirm("Do you want to delete Item Code: " + name)) {
+                //Get the reference of the Table.
+                var table = $("#tblPurchases")[0];
+
+                //Delete the Table row using it's Index.
+                table.deleteRow(row[0].rowIndex);
+            }
+        };
+
+        function Cancel(button) {
+
+            if (confirm("Do you want to delete whole table?: ")) {
+                //Get the reference of the Table.
+                //var table = $("#tblFinancialOffer")[0];
+                var table = document.getElementById("tblPurchases");
+                //or use :  var table = document.all.tableid;
+                for (var i = table.rows.length - 1; i > 0; i--) {
+                    table.deleteRow(i);
+                }
+            };
+        };
+
+        //$("#Prods").bind("mouseenter", disableOptions);
+
+        //function disableOptions() {
+
+        //    var tableData = [];
+        //    var tableData2 = [];
+        //    $("#tblPurchasesForView tr").each(function () {
+        //        tableData.push($(this).children(":first").text().trim());
+        //    });
+
+        //    $("#tblPurchases tr").each(function () {
+        //        tableData2.push($(this).children(":first").text().trim());
+        //    });
+
+        //    $("#Prods option").each(
+        //        function () {
+        //            if (jQuery.inArray(this.text, tableData) > -1) {
+        //                $(this).prop('disabled', true);
+        //            }
+        //            else if (jQuery.inArray(this.text, tableData2) > -1) {
+        //                $(this).prop('disabled', true);
+        //            }
+        //        }
+        //    );
+        //}
+
+        $("body").on("click", "#sendServer", function () {
+            //Loop through the Table rows and build a JSON array.
+            var PurchaseRef = $("#PurchaseRef");
+            var PurchaseOrderDate = $("#PurchaseOrderDate");
+            var Remarks = $("#Remarks");
+            var PlaceOfDelivery = $("#PlaceOfDelivery");
+            var Company_ID = $("#Company_ID");
+            var customers = [];
+            //document.getElementById(rowId).childNodes[5].value;
+            $("#tblPurchases1 TBODY TR").each(function () {
+                var row = $(this);
+                var customer = {};
+              
+                customer.Ref = $("#RefSelect").val();
+                customer.InvoiceDate = $("#InvoiceDate").val();
+                customer.InvoiceNum = $("#InvoiceNum").val();
+                customer.Company = $("#CompanySelect1").val();
+                customer.PurchasesID = row.find("td").eq(0).find('input').val();
+                customer.ProductName = row.find("td").eq(1).find('option').val();
+                customer.PackVal = row.find("td").eq(2).find('input').val();
+                customer.AcUnit = row.find("td").eq(3).find('input').val();
+                customer.prodQty = row.find("td").eq(4).find('input').val();
+                customer.prodBatch = row.find("td").eq(5).find('input').val();
+                customer.prodMFG = row.find("td").eq(6).find('input').val();
+                customer.prodEXP = row.find("td").eq(7).find('input').val();
+                customer.purchaseRate = row.find("td").eq(8).find('input').val();
+                customer.amount = row.find("td").eq(9).find('input').val();
+               
+
+                customers.push(customer);
+
+            });
+            console.log(JSON.stringify(customers));
+            //Send the JSON array to Controller using AJAX.
+            $.ajax({
+                type: "POST",
+                url: "/User/SaveUpdatedPurchases",
+                data: JSON.stringify(customers),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (r) {
+                    alert(r + " record(s) inserted.");
+                    window.location.href =  '@Url.Action("PurchasesView", "User")'
+                }
+            });
+        });
+
+        $("body").on("click", "#addNewRow", function () {
+            //Loop through the Table rows and build a JSON array.
+            
+            var InvoiceDate = $("#InvoiceDate");
+            var InvoiceNum = $("#InvoiceNum");
+            var customers = [];
+            //document.getElementById(rowId).childNodes[5].value;
+            $("#tblPurchases TBODY TR").each(function () {
+                var row = $(this);
+                var customer = {};
+                customer.Ref = $("#Reference").val();
+                customer.InvoiceDate = $("#InvDate").val();
+                customer.InvoiceNum = $("#InvNum").val();
+                customer.Company = $("#Comp").val();
+                customer.ProductName = row.find("td").eq(0).html();
+                customer.PackVal = row.find("td").eq(1).html();
+                customer.AcUnit = row.find("td").eq(2).html();
+                customer.prodQty = row.find("td").eq(3).html();
+                customer.prodBatch = row.find("td").eq(4).html();
+                customer.prodMFG = row.find("td").eq(5).html();
+                customer.prodEXP = row.find("td").eq(6).html();
+                customer.purchaseRate = row.find("td").eq(7).html();
+                customer.amount = row.find("td").eq(8).html();
+                
+                customers.push(customer);
+
+            });
+            console.log(JSON.stringify(customers));
+            //Send the JSON array to Controller using AJAX.
+            $.ajax({
+                type: "POST",
+                url: "/User/addNewRowInPurchases",
+                data: JSON.stringify(customers),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (r) {
+                    alert(r + " record(s) inserted.");
+                    window.location.href =  '@Url.Action("PurchasesView", "User")'
+                },
+                error: function (r) {
+                    alert(r + "Please enter atleast 1 Product");
+                   
+                }
+            });
+        });
+    </script>
+</body>
+</html>

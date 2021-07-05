@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+@model ShadaniEnterprises.Models.ProductViewModelList
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Products</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="~/cssUser/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="~/cssUser/helper.css" rel="stylesheet">
+    <link href="~/cssUser/style.css" rel="stylesheet">
+</head>
+
+<body class="fix-header fix-sidebar">
+    <!-- Preloader - style you can find in spinners.css -->
+    <div class="preloader">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+        </svg>
+    </div>
+    @Html.Partial("_Header")
+    @Html.Partial("_Navigation")
+    <!-- Page wrapper  -->
+    <div class="page-wrapper">
+        <!-- Bread crumb -->
+        <div class="row page-titles">
+            <div class="col-md-5 align-self-center">
+                <h3 class="text-primary">Products</h3>
+            </div>
+            <div class="col-md-7 align-self-center">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="javascript:void(0)">Dashboard</a></li>
+                    <li class="breadcrumb-item active">Users</li>
+                </ol>
+            </div>
+        </div>
+        <!-- End Bread crumb -->
+        <!-- Container fluid  -->
+        <div class="container-fluid">
+           
+                <!-- Start Page Content -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="table-responsive m-t-40">
+                                    <table id="myTable" class="tableC table-bordered table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>S.No</th>
+                                                <th>Generic Name</th>
+                                                <th>Brand Name</th>
+                                                <th>Group</th>
+                                                <th>Other</th>
+                                                <th>Company</th>
+                                                <th>Dosage</th>
+                                                <th>Strength</th>
+                                                <th>D_Reg#</th>
+                                                <th>P_Size</th>
+                                                <th>Stax</th>
+                                                <th>Scheme Qty</th>
+                                                <th>Bonus</th>
+                                                <th>TP</th>
+                                                <th>MRP</th>
+                                                <th>Actions</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @for (int x = 0; x < Model.LstProductTableList.Count(); x++)
+                                            {
+                                                int y = x + 1;
+                                                <tr>
+                                                    <td class="tdC">@y.ToString()</td>
+                                                    <td class="tdC">@Model.LstProductTableList[x].Generic_Name</td>
+                                                    <td class="tdC">@Model.LstProductTableList[x].Brand_Name</td>
+                                                    <td class="tdC">@Model.LstProductTableList[x].GroupName</td>
+                                                    <td class="tdC">@Model.LstProductTableList[x].Other_Mention_Here</td>
+                                                    <td class="tdC">@Model.LstProductTableList[x].CompanyName</td>
+                                                    <td class="tdC">@Model.LstProductTableList[x].Dosage_Form</td>
+                                                    <td class="tdC">@Model.LstProductTableList[x].Strength</td>
+                                                    <td class="tdC">@Model.LstProductTableList[x].Drug_Registration_Number</td>
+                                                    <td class="tdC">@Model.LstProductTableList[x].Pack_Size</td>
+                                                    <td class="tdC">@Model.LstProductTableList[x].Stax</td>
+                                                    <td class="tdC">@Model.LstProductTableList[x].Scheme_Quantity</td>
+                                                    <td class="tdC">@Model.LstProductTableList[x].Bonus</td>
+                                                    <td class="tdC">@Model.LstProductTableList[x].Trade_Price</td>
+                                                    <td class="tdC">@Model.LstProductTableList[x].MRP</td>
+                                                    <td class="td-actions text-right">
+                                                        @using (Html.BeginForm("RemoveProduct", "User", FormMethod.Post))
+                                                        {
+                                                            <button type="submit" rel="tooltip" title="Delete" value="@Model.LstProductTableList[x].TBL_Product_ID" name="Remove" class="btn btn-danger btn-simple btn-xs">
+                                                                <i class="material-icons">Delete</i>
+                                                            </button>
+                                                        }
+                                                        @using (Html.BeginForm("EditProduct", "User", FormMethod.Get))
+                                                        {
+                                                            <button type="submit" rel="tooltip" title="Edit" value="@Model.LstProductTableList[x].TBL_Product_ID" name="Edit" class="btn btn-info btn-simple btn-xs">
+                                                                <i class="material-icons">Edit</i>
+                                                            </button>
+
+                                                        }
+                                                    </td>
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+         
+            <!-- End PAge Content -->
+        </div>
+        <!-- End Container fluid  -->
+    </div>
+    <!-- End Page wrapper  -->
+    <!-- All Jquery -->
+    <script src="~/jsUser/lib/jquery/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="~/jsUser/lib/bootstrap/js/popper.min.js"></script>
+    <script src="~/jsUser/lib/bootstrap/js/bootstrap.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="~/jsUser/jquery.slimscroll.js"></script>
+    <!--Menu sidebar -->
+    <script src="~/jsUser/sidebarmenu.js"></script>
+    <!--stickey kit -->
+    <script src="~/jsUser/lib/sticky-kit-master/dist/sticky-kit.min.js"></script>
+    <!--Custom JavaScript -->
+    <script src="~/jsUser/custom.min.js"></script>
+    @if (!string.IsNullOrEmpty(ViewBag.Message))
+    {
+        <script type="text/javascript">alert('@ViewBag.Message');</script>
+    }
+
+    <script src="~/jsUser/lib/datatables/datatables.min.js"></script>
+    <script src="~/jsUser/lib/datatables/cdn.datatables.net/buttons/1.2.2/js/dataTables.buttons.min.js"></script>
+    <script src="~/jsUser/lib/datatables/cdn.datatables.net/buttons/1.2.2/js/buttons.flash.min.js"></script>
+    <script src="~/jsUser/lib/datatables/cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js"></script>
+    <script src="~/jsUser/lib/datatables/cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/pdfmake.min.js"></script>
+    <script src="~/jsUser/lib/datatables/cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/vfs_fonts.js"></script>
+    <script src="~/jsUser/lib/datatables/cdn.datatables.net/buttons/1.2.2/js/buttons.html5.min.js"></script>
+    <script src="~/jsUser/lib/datatables/cdn.datatables.net/buttons/1.2.2/js/buttons.print.min.js"></script>
+    <script src="~/jsUser/lib/datatables/datatables-init.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Purchase Order Print</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Invoicebus Invoice Template">
+    <meta name="author" content="Invoicebus">
+    <meta name="template-hash" content="91216e926eab41d8aa403bf4b00f4e19">
+    <link href="~/cssUser/template.css" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+
+        <div class="right-invoice">
+            <section id="memo">
+                <div class="company-info">
+                    <div>Shadani Enterprises</div>
+                    <br>
+                    <span>Flat No. A-307, Farhan Tower Block-20</span>
+                    <span> ● Gulistan-e-Johar, Karachi</span>
+                    <br>
+                    <span>Phone: 0213-34156849</span>
+                    <br>
+                    <span>www.shadanienterprises.com ● jp@shadanienterprises.com</span>
+                </div>
+                <div class="logo">
+                    <img src="../../img/1.png" alt="logo" style="height: 80px; width: 160px;" />
+                </div>
+            </section>
+            <section id="invoice-title-number">
+               
+                <div id="title">Purchase Order</div>
+
+            </section>
+            <section id="client-info">
+                <div class="client-name">
+                    <span>Medical Officer</span>
+                </div>
+
+            </section>
+
+            <div class="clearfix"></div>
+
+            <section id="invoice-info">
+                <div>
+                    <span>Ref:</span> <span> </span>
+                </div>
+                <div>
+                    <span>Dated:</span> <span></span>
+                </div>
+            </section>
+
+            <div class="clearfix"></div>
+            <section id="items">
+
+                <table cellpadding="0" cellspacing="0">
+
+                    <tr>
+
+                        <th>S. No</th> <!-- Dummy cell for the row number and row commands -->
+                        <th>Products</th>
+                        <th>Pack</th>
+                        <th>Qty</th>
+                        <th>Inst. Rates</th>
+                        <th>Our %</th>
+                        <th>Rate After Disc</th>
+                        <th>Value</th>
+                    </tr>
+
+                    <tr>
+                        <td>1</td> <!-- Don't remove this column as it's needed for the row commands -->
+                        <td>TEstttsts</td>
+                        <td>5ml</td>
+                        <td>667</td>
+                        <td>36.50</td>
+                        <td>10%</td>
+                        <td>32.85</td>
+                        <td>21,910.95</td>
+
+                    </tr>
+
+                </table>
+
+            </section>
+
+            <section id="sums">
+
+                <table cellpadding="0" cellspacing="0">
+                    <tr>
+                        <th>Order Value</th>
+                        <td></td>
+                    </tr>
+
+                    <tr data-iterate="tax">
+                        <th>% WHT Deducted</th>
+                        <td id="taxDeducted"></td>
+                    </tr>
+
+                    <tr class="amount-total">
+                        <!-- {amount_total_label} -->
+                        <td colspan="2"></td>
+                    </tr>
+
+                </table>
+
+            </section>
+
+            <div class="clearfix"></div>
+
+            <section id="Remarks">
+
+                <span>Remarks:</span>
+                <div></div>
+
+            </section>
+            <section id="DeliveryPlace">
+
+                <span>Place of Delivery:</span>
+                <div></div>
+
+            </section>
+            <section id="Signature">
+
+                <span>Signature & Stamp of Distributor:</span>
+
+
+            </section>
+          
+        </div>
+    </div>
+
+
+</body>
+</html>

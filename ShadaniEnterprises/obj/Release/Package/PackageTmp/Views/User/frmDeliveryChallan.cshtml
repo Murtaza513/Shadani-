@@ -1,0 +1,550 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Delivery Challan</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="~/cssUser/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="~/cssUser/helper.css" rel="stylesheet">
+    <link href="~/cssUser/style.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:** -->
+    <!--[if lt IE 9]>
+        <script src="https:**oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https:**oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!-- Preloader - style you can find in spinners.css -->
+    <div class="preloader">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+        </svg>
+    </div>
+    @Html.Partial("_Header")
+    @Html.Partial("_Navigation")
+    <div class="page-wrapper">
+        <!-- Bread crumb -->
+        <div class="row page-titles">
+            <div class="col-md-5 align-self-center">
+                <h3 class="text-primary">Add Custom Delivery Challan</h3>
+            </div>
+            <div class="col-md-7 align-self-center">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="javascript:void(0)">Parameters</a></li>
+                    <li class="breadcrumb-item active">Custom Delivery Challan</li>
+                </ol>
+            </div>
+        </div>
+        <!-- End Bread crumb -->
+        <!-- Container fluid  -->
+        <div class="container-fluid">
+            <!-- Start Page Content -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card card-outline-primary">
+                        <div class="card-header">
+                            <h4 class="m-b-0 text-white">Delivery Challan</h4>
+                        </div>
+                        <div class="card-body">
+                            @using (Html.BeginForm("frmDeliveryChallan", "User", FormMethod.Post))
+                            {
+                                <form action="#">
+                                    <div class="form-body">
+                                        <h3 class="box-title m-t-40">Details</h3>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-md-6 ">
+                                                <div class="form-group">
+                                                    <label>Custom Ref</label>
+                                                    <input type="text" name="RefSelect" id="RefSelect" class="form-control" required>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 ">
+                                                <div class="form-group">
+                                                    <label>Select Customer</label>
+                                                    <select class="form-control custom-select" name="CustomerSelect" id="CustomerSelect" required>
+                                                        <option>Select</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6 ">
+                                                <div class="form-group">
+                                                    <label>DC Type</label>
+                                                    <select class="form-control custom-select" name="DcType" id="Dctype" required>
+                                                        <option>Select</option>
+                                                        <option value="Open">Open</option>
+                                                        <option value="Private">Private</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 ">
+                                                <div class="form-group">
+                                                    <label>Include Warranty</label>
+                                                    <select class="form-control custom-select" name="Warranty" id="Warranty" required>
+                                                        <option>Select</option>
+                                                        <option value="Yes">Yes</option>
+                                                        <option value="No">No</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="row">
+
+                                            <div class="col-md-4 ">
+                                                <div class="form-group">
+                                                    <label>Order Date</label>
+                                                    <input type="date" name="OrderDate" id="OrderDate" class="form-control" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 ">
+                                                <div class="form-group">
+                                                    <label>Custom DC No.</label>
+                                                    <input type="text" name="DcNum" id="DcNum" class="form-control" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 ">
+                                                <div class="form-group">
+                                                    <label>DC Date</label>
+                                                    <input type="date" name="DcDate" id="DcDate" class="form-control" required>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-4 ">
+                                                <div class="form-group">
+                                                    <label>Products</label>
+                                                    <select class="form-control custom-select" id="ProductsToPurchase" required>
+                                                        <option>Select</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 ">
+                                                <div class="form-group">
+                                                    <label>Tender Code</label>
+                                                    <input type="text" name="TenderCode" id="TenderCode" class="form-control" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 ">
+                                                <div class="form-group">
+                                                    <label>Prod Reg #</label>
+                                                    <input type="text" name="ProdRegNum" id="ProdRegNum" class="form-control" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 ">
+                                                <div class="form-group">
+                                                    <label>Pack</label>
+                                                    <input type="text" name="prodPackSize" id="prodPackSize" class="form-control" required>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4 ">
+                                                <div class="form-group">
+                                                    <label>A/c Unit</label>
+                                                    <input type="text" name="AcUnit" id="AcUnit" class="form-control" required>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-4 ">
+                                                <div class="form-group">
+                                                    <label>Quantity</label>
+                                                    <input type="number" min="0" name="prodQuantity" id="prodQuantity" class="form-control" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 ">
+                                                <div class="form-group">
+                                                    <label>Batch</label>
+                                                    <input type="text" name="prodBatchNumber" id="prodBatchNumber" class="form-control" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4 ">
+                                                <div class="form-group">
+                                                    <label>MFG</label>
+                                                    <input type="month" name="MfgDate" id="MfgDate" class="form-control" required>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-4 ">
+                                                <div class="form-group">
+                                                    <label>EXP</label>
+                                                    <input type="month" name="ExpDate" id="ExpDate" class="form-control" required>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--/row-->
+                                        <!--/row-->
+                                    </div>
+                                    <div class="form-actions">
+                                        <button type="button" id="btnAdd" class="btn btn-success"> <i class="fa fa-check"></i>Add</button>
+                                    </div>
+                                </form>
+                                <div class="container-fluid">
+                                    <!-- Start Page Content -->
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div class="table-responsive m-t-40">
+                                                        <table id="tblDc" class="table table-bordered table-striped">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>Tender Code</th>
+                                                                    <th>Prod Reg #</th>
+                                                                    <th>Product</th>
+                                                                    <th>Pack</th>
+                                                                    <th>A/c unit</th>
+                                                                    <th>Qty</th>
+                                                                    <th>Batch</th>
+                                                                    <th>MFG</th>
+                                                                    <th>EXP</th>
+                                                                   
+                                                                    <th>Action</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+
+                                                                @*<tr>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td class="td-actions text-right">
+                                                                            <button type="submit" rel="tooltip" title="Delete" value="Remove" name="Remove" class="btn btn-danger btn-simple btn-xs" onclick="Remove(this)">
+                                                                                <i class="material-icons">Remove</i>
+                                                                            </button>
+                                                                        </td>
+                                                                    </tr>*@
+
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-actions">
+                                        <button type="submit" id="sendServer" name="sendServer" class="btn btn-success"> <i class="fa fa-check"></i> Save</button>
+                                        <button type="button" class="btn btn-inverse" onclick="Cancel(this)">Cancel</button>
+                                      
+                                    </div>
+                                    <!-- End PAge Content -->
+                                </div>
+                                @*<lable>Total</lable>
+                                    <lable id="lblOrderValue"></lable>*@
+
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Row -->
+            <!-- End PAge Content -->
+        </div>
+        <!-- End Container fluid  -->
+    </div>
+
+    <script src="~/jsUser/lib/jquery/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="~/jsUser/lib/bootstrap/js/popper.min.js"></script>
+    <script src="~/jsUser/lib/bootstrap/js/bootstrap.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="~/jsUser/jquery.slimscroll.js"></script>
+    <!--Menu sidebar -->
+    <script src="~/jsUser/sidebarmenu.js"></script>
+    <!--stickey kit -->
+    <script src="~/jsUser/lib/sticky-kit-master/dist/sticky-kit.min.js"></script>
+    <!--Custom JavaScript -->
+    <script src="~/jsUser/custom.min.js"></script>
+    <script type="text/javascript">
+
+
+        $(function () {
+
+            AjaxCall('/User/GetAllRef', null).done(function (response) {
+                if (response.length > 0) {
+                    $('#RefSelect').html('');
+                    var options = '';
+                    options += '<option value="Select">Select</option>';
+                    for (var i = 0; i < response.length; i++) {
+                        options += '<option value="' + response[i] + '">' + response[i] + '</option>';
+                    }
+                    $('#RefSelect').append(options);
+
+                }
+            }).fail(function (error) {
+                alert(error.StatusText);
+            });
+
+            AjaxCall('/User/GetAllCustomers', null).done(function (response) {
+                if (response.length > 0) {
+                    $('#CustomerSelect').html('');
+                    var options = '';
+                    options += '<option value="Select">Select</option>';
+                    for (var i = 0; i < response.length; i++) {
+                        options += '<option value="' + response[i] + '">' + response[i] + '</option>';
+                    }
+                    $('#CustomerSelect').append(options);
+
+                }
+            }).fail(function (error) {
+                alert(error.StatusText);
+                });
+
+            $('#RefSelect').on("change", function () {
+                var country = $('#RefSelect').val();
+                var obj = { Company: country };
+                $.ajax({
+                    url: "/User/GetDeliveryChallanDetails",
+                    method: "POST",
+                    data: obj,
+                    success: function (response) {
+                        if (response.length > 0) {
+                            $("#OrderDate").val(response[0]);
+                            $("#DcNum").val(response[1]);
+                         
+                        }
+                    }
+                })
+            });
+
+            $('#RefSelect').on("change", function () {
+                var country = $('#RefSelect').val();
+                var obj = { Company: country };
+                $.ajax({
+                    url: "/User/GetDeliveryDataBasedOnRef",
+                    method: "POST",
+                    data: obj,
+                    success: function (response) {
+                        console.log(response);
+                        if (response.length > 0) {
+                            $('#ProductsToPurchase').html('');
+                            var options = '';
+                            options += '<option value="Select">Select</option>';
+                            for (var i = 0; i < response.length; i++) {
+                                options += '<option value="' + response[i] + '">' + response[i] + '</option>';
+                            }
+                            $('#ProductsToPurchase').append(options);
+
+                        }
+                    }
+                })
+            });
+
+            $('#ProductsToPurchase').on("change", function () {
+                var Product = $('#ProductsToPurchase').val();
+                var Ref = $('#RefSelect').val();
+                var obj = { ProductName: Product, Ref: Ref };
+                $.ajax({
+                    url: "/User/GetProdDetailsForDelivery",
+                    method: "POST",
+                    data: obj,
+                    success: function (response) {
+                        console.log(response);
+                        if (response.length > 0) {
+                            $("#prodPackSize").val(response[0]);
+                            $("#AcUnit").val(response[1]);
+                            $("#prodQuantity").val(response[2]);
+                            $("#prodBatchNumber").val(response[3]);
+                            $("#MfgDate").val(response[4]);
+                            $("#ExpDate").val(response[5]);
+                            $("#TenderCode").val(response[6]);
+                            $("#ProdRegNum").val(response[7]);
+                        }
+                    }
+                })
+            });
+
+        });
+
+        function AjaxCall(url, data, type) {
+            return $.ajax({
+                url: url,
+                type: type ? type : 'GET',
+                data: data,
+                contentType: 'application/json'
+            });
+        }
+
+        $("body").on("click", "#btnAdd", function () {
+            //Auto Generated Text Boxes
+            var TenderCode = $("#TenderCode");
+            var ProdRegNum = $("#ProdRegNum");
+            var ProductsToPurchase = $("#ProductsToPurchase");
+            var prodPackSize = $("#prodPackSize");
+            var AcUnit = $("#AcUnit");
+            //Reference the Name and Country TextBoxes.
+            var prodQuantity = $("#prodQuantity");
+            var prodBatchNumber = $("#prodBatchNumber");
+            var MfgDate = $("#MfgDate");
+            var ExpDate = $("#ExpDate");
+          
+
+
+            //Get the reference of the Table's TBODY element.
+            var tBody = $("#tblDc > TBODY")[0];
+
+            //Add Row.
+            var row = tBody.insertRow(-1);
+
+            // Auto Generated Cells Added.
+            var cell = $(row.insertCell(-1));
+            cell.html(TenderCode.val());
+
+            cell = $(row.insertCell(-1));
+            cell.html(ProdRegNum.val());
+
+            cell = $(row.insertCell(-1));
+            cell.html(ProductsToPurchase.val());
+
+            //Add GenericName cell.
+            cell = $(row.insertCell(-1));
+            cell.html(prodPackSize.val());
+
+            //Brand Name cell.
+            cell = $(row.insertCell(-1));
+            cell.html(AcUnit.val());
+            //Prod Strength cell.
+            cell = $(row.insertCell(-1));
+            cell.html(prodQuantity.val());
+
+            cell = $(row.insertCell(-1));
+            cell.html(prodBatchNumber.val());
+
+            cell = $(row.insertCell(-1));
+            cell.html(MfgDate.val());
+
+            cell = $(row.insertCell(-1));
+            cell.html(ExpDate.val());
+            
+            //Add Button cell.
+
+            cell = $(row.insertCell(-1));
+            var btnRemove = $("<input />");
+            btnRemove.attr("type", "button");
+            btnRemove.attr("class", "btn btn-danger btn-simple btn-xs");
+            btnRemove.attr("onclick", "Remove(this);");
+            btnRemove.val("Remove");
+            cell.append(btnRemove);
+
+            //Clear the TextBoxes.
+            TenderCode.val("");
+            ProdRegNum.val("");
+            ProductsToPurchase.val("");
+            prodPackSize.val("");
+            AcUnit.val("");
+            prodQuantity.val("");
+            prodBatchNumber.val("");
+            MfgDate.val("");
+            ExpDate.val("");
+           
+
+
+
+        });
+
+        function Remove(button) {
+            //Determine the reference of the Row using the Button.
+            var row = $(button).closest("TR");
+            var name = $("TD", row).eq(0).html();
+            if (confirm("Do you want to delete Item Code: " + name)) {
+                //Get the reference of the Table.
+                var table = $("#tblDc")[0];
+
+                //Delete the Table row using it's Index.
+                table.deleteRow(row[0].rowIndex);
+            }
+        };
+
+        function Cancel(button) {
+
+            if (confirm("Do you want to delete whole table?: ")) {
+                //Get the reference of the Table.
+                //var table = $("#tblFinancialOffer")[0];
+                var table = document.getElementById("tblDc");
+                //or use :  var table = document.all.tableid;
+                for (var i = table.rows.length - 1; i > 0; i--) {
+                    table.deleteRow(i);
+                }
+            };
+        };
+
+        $("body").on("click", "#sendServer", function () {
+            //Loop through the Table rows and build a JSON array.
+            var customers = new Array();
+            $("#tblDc TBODY TR").each(function () {
+                var row = $(this);
+                var customer = {};
+
+                customer.Ref = $("#RefSelect").val();
+                customer.OrderDate = $("#OrderDate").val();
+                customer.DcNum = $("#DcNum").val();
+                customer.CustomerName = $("#CustomerSelect").val();
+                customer.DcDate = $("#DcDate").val();
+                customer.DcType = $("#DcType").val();
+                customer.Warranty = $("#Warranty").val();
+                customer.TenderCode = row.find("td").eq(0).html();
+                customer.ProdRegNum = row.find("td").eq(1).html();
+                customer.ProductName = row.find("td").eq(2).html();
+                customer.PackVal = row.find("td").eq(3).html();
+                customer.AcUnit = row.find("td").eq(4).html();
+                customer.prodQty = row.find("td").eq(5).html();
+                customer.prodBatch = row.find("td").eq(6).html();
+                customer.prodMFG = row.find("td").eq(7).html();
+                customer.prodEXP = row.find("td").eq(8).html();
+
+                customers.push(customer);
+            });
+
+            //Send the JSON array to Controller using AJAX.
+            $.ajax({
+                type: "POST",
+                url: "/User/SaveDeliveryChallan",
+                data: JSON.stringify(customers),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (r) {
+                    alert(r + " record(s) inserted.");
+                    window.location.href =  '@Url.Action("DeliveryChallanView", "User")'
+                }
+            });
+        });
+
+        $(document).ready(function () {
+            var now = new Date();
+
+            var day = ("0" + now.getDate()).slice(-2);
+            var month = ("0" + (now.getMonth() + 1)).slice(-2);
+
+            var today = now.getFullYear() + "-" + (month) + "-" + (day);
+
+
+            $('#DcDate').val(today);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Dashboard</title>
+
+    <link href="~/cssUser/lib/chartist/chartist.min.css" rel="stylesheet">
+    <link href="~/cssUser/lib/owl.carousel.min.css" rel="stylesheet" />
+    <link href="~/cssUser/lib/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="~/cssUser/lib/calendar2/semantic.ui.min.css" rel="stylesheet">
+    <link href="~/cssUser/lib/calendar2/pignose.calendar.min.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="~/cssUser/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="~/cssUser/helper.css" rel="stylesheet">
+    <link href="~/cssUser/style.css" rel="stylesheet">
+</head>
+
+<body class="fix-sidebar">
+    <div id="main-wrapper">
+        <!-- Left Sidebar  -->
+        <div class="left-sidebar">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <li class="nav-devider"></li>
+                        <li class="nav-label">Home</li>
+                        <li>
+                            <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-tachometer"></i><span class="hide-menu">Dashboard <span class="label label-rouded label-primary pull-right">11</span></span></a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="~/User/CompanyView">Companies</a></li>
+                                <li><a href="~/User/CustomerView">Customers</a></li>
+                                <li><a href="~/User/ProductsView">Products</a></li>
+                                <li><a href="~/User/TenderView">Tenders</a></li>
+                                <li><a href="~/User/FinancialOffersView">Financial Offers</a></li>
+                                <li><a href="~/User/TechnicalOffersView">Technical Offers</a></li>
+                                <li><a href="~/User/PurchaseOrdersView">Purchase Orders</a></li>
+                                <li><a href="~/User/PurchasesView">Purchases</a></li>
+                                <li><a href="~/User/InvoiceView">Invoice / Bills</a></li>
+                                <li><a href="~/User/DeliveryChallanView">Delivery Challans</a></li>
+                                <li><a href="~/User/UsersView">Users</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-label">Generate</li>
+                        <li>
+                            <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-wpforms"></i><span class="hide-menu">Forms <span class="label label-rouded label-warning pull-right">5</span></span></a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="~/User/formTender">Add Tender</a></li>
+                                <li><a href="~/User/frmFinancialOffer">Add Financial Offer</a></li>
+                                <li><a href="~/User/frmPurchaseOrder">Add Purchase Order</a></li>
+                                <li><a href="~/User/frmAddPurchases">Add Purchases</a></li>
+                                <li><a href="~/User/frmInvoiceBills">Add Invoice / Bills</a></li>
+                                @*<li><a href="~/User/frmDeliveryChallan">Add Delivery Challan</a></li>*@
+                             
+                            </ul>
+                        </li>
+                        <li class="nav-label">Add</li>
+                        <li>
+                            <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-wpforms"></i><span class="hide-menu">Parameters <span class="label label-rouded label-warning pull-right">4</span></span></a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="~/User/formAddCustomer">Add Customer</a></li>
+                                <li><a href="~/User/formAddCompany">Add Company</a></li>
+                                <li><a href="~/User/frmAddProduct">Add Product</a></li>
+                                <li><a href="~/User/formAddUser">Add User</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </div>
+        <!-- End Left Sidebar  -->
+        <!-- Page wrapper  -->
+        <!-- End Page wrapper  -->
+    </div>
+    <!-- End Wrapper -->
+    <!-- All Jquery -->
+    <script src="~/jsUser/lib/jquery/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="~/jsUser/lib/bootstrap/js/popper.min.js"></script>
+    <script src="~/jsUser/lib/bootstrap/js/bootstrap.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="~/jsUser/jquery.slimscroll.js"></script>
+    <!--Menu sidebar -->
+    <script src="~/jsUser/sidebarmenu.js"></script>
+    <!--stickey kit -->
+    <script src="~/jsUser/lib/sticky-kit-master/dist/sticky-kit.min.js"></script>
+
+    <script src="~/jsUser/lib/calendar-2/moment.latest.min.js"></script>
+    <!-- scripit init-->
+    <script src="~/jsUser/lib/calendar-2/semantic.ui.min.js"></script>
+    <!-- scripit init-->
+    <script src="~/jsUser/lib/calendar-2/prism.min.js"></script>
+    <!-- scripit init-->
+    <script src="~/jsUser/lib/calendar-2/pignose.calendar.min.js"></script>
+    <!-- scripit init-->
+    <script src="~/jsUser/lib/calendar-2/pignose.init.js"></script>
+    <script src="~/jsUser/lib/datamap/d3.min.js"></script>
+    <script src="~/jsUser/lib/datamap/topojson.js"></script>
+
+    <script src="~/jsUser/lib/weather/jquery.simpleWeather.min.js"></script>
+    <script src="~/jsUser/lib/owl-carousel/owl.carousel.min.js"></script>
+    <script src="~/jsUser/lib/owl-carousel/owl.carousel-init.js"></script>
+    <!--Custom JavaScript -->
+    <script src="~/jsUser/custom.min.js"></script>
+
+</body>
+
+</html>

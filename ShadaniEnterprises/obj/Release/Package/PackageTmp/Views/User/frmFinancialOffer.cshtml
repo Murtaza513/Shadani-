@@ -1,0 +1,517 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Add Financial Offer</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="~/cssUser/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="~/cssUser/helper.css" rel="stylesheet">
+    <link href="~/cssUser/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Preloader - style you can find in spinners.css -->
+    <div class="preloader">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+        </svg>
+    </div>
+    @Html.Partial("_Header")
+    @Html.Partial("_Navigation")
+    <div class="page-wrapper">
+        <!-- Bread crumb -->
+        <div class="row page-titles">
+            <div class="col-md-5 align-self-center">
+                <h3 class="text-primary">Financial Offer</h3>
+            </div>
+            <div class="col-md-7 align-self-center">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="javascript:void(0)">Forms</a></li>
+                    <li class="breadcrumb-item active">Add Financial Offer</li>
+                </ol>
+            </div>
+        </div>
+        <!-- End Bread crumb -->
+        <!-- Container fluid  -->
+        <div class="container-fluid">
+            <!-- Start Page Content -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card card-outline-primary">
+                        <div class="card-header">
+                            <h4 class="m-b-0 text-white">Add Financial Offer</h4>
+                        </div>
+                        <div class="card-body">
+                            @using (Html.BeginForm("frmFinancialOffer", "User", FormMethod.Post))
+                            {
+                                <form action="#">
+                                    <div class="form-body">
+                                        <h3 class="box-title m-t-40">Details</h3>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-md-6 ">
+                                                <div class="form-group">
+                                                    <label>Financial Offer Num</label>
+                                                    <input type="text" name="FoNum" id="FoNum" class="form-control" disabled>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                        <div class="row">
+                                   
+
+                                            <div class="col-md-6 ">
+                                                <div class="form-group">
+                                                    <label>Customer Name</label>
+                                                    <input type="text" name="CustName" id="CustName" class="form-control" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4 ">
+                                                <div class="form-group">
+                                                    <label>Description 1</label>
+                                                    <input type="text" name="Desc1" id="Desc1" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4  ">
+                                                <div class="form-group">
+                                                    <label>Description 2</label>
+                                                    <input type="text" name="Desc2" id="Desc2" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4  ">
+                                                <div class="form-group">
+                                                    <label>Description 3</label>
+                                                    <input type="text" name="Desc3" id="Desc3" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="form-body">
+                                        <div class="row">
+                                            <div class="col-md-4 ">
+                                                <div class="form-group">
+                                                    <label>Product</label>
+                                                    <select class="form-control custom-select" name="ProductsToPurchase" id="ProductsToPurchase" required>
+                                                        <option>Select</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 ">
+                                                <div class="form-group">
+                                                    <label>Item Code</label>
+                                                    <input type="text" name="itemCode" id="itemCode" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 ">
+                                                <div class="form-group">
+                                                    <label>AC Unit</label>
+                                                    <input type="text" name="AcUnit" id="AcUnit" class="form-control">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4 ">
+                                                <div class="form-group">
+                                                    <label>Pack Size</label>
+                                                    <input type="text" name="PackSize" id="PackSize" class="form-control">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label>Tender Quantity</label>
+                                                    <input type="number" min="0" name="TenderQuan" id="TenderQuan" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label>Drug Reg #</label>
+                                                    <input type="text" name="DrugRegNum" id="DrugRegNum" class="form-control">
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label>Trade Price</label>
+                                                    <input type="number" min="0" step="0.01" data-number-to-fixed="2" data-number-stepfactor="100" name="Tradeprice" id="Tradeprice" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label>Cust Bid Rates</label>
+                                                    <input type="number" min="0" step="0.01" data-number-to-fixed="2" data-number-stepfactor="100" name="custBidRate" id="custBidRate" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 ">
+                                                <div class="form-group">
+                                                    <label>% of Quoted items</label>
+                                                    <input type="number" min="0" name="PercentAmount" id="PercentAmount" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label>Notes 1</label>
+                                                    <input type="text" name="Notes1" id="Notes1" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label>Notes 2</label>
+                                                    <input type="text" name="Notes2" id="Notes2" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label>Notes 3</label>
+                                                    <input type="text" name="Notes3" id="Notes3" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row" hidden>
+                                            <div class="col-md-6 ">
+                                                <div class="form-group">
+                                                    <label>Total Amount</label>
+                                                    <input type="number" min="0.01" step="0.01" name="TotalAmount" id="TotalAmount">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 ">
+                                                <div class="form-group">
+                                                    <label>Percent Calculated</label>
+                                                    <input type="number" min="0.01" step="0.01" name="PercentCalculated" id="PercentCalculated">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-actions">
+                                        <button type="button" id="btnAdd" class="btn btn-success"> <i class="fa fa-check"></i>Add</button>
+                                    </div>
+                                </form>
+
+                                <div class="container-fluid">
+                                    <!-- Start Page Content -->
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div class="table-responsive m-t-40">
+                                                        <table id="tblFinancialOffer" class="table table-bordered table-striped">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>Item Code</th>
+                                                                    <th>A/c unit</th>
+                                                                    <th>Tender Qty</th>
+                                                                    <th>Pack Size</th>
+                                                                    <th>Drug Reg#</th>
+                                                                    <th>Brand Name</th>
+                                                                    <th>TP</th>
+                                                                    <th>Bid Rate</th>
+                                                                    <th>Total Amount</th>
+                                                                    <th>% Amount</th>
+
+                                                                    <th>Action</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                @*<tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td class="td-actions text-right">
+                                            <button type="submit" rel="tooltip" title="Delete" value="Remove" name="Remove" class="btn btn-danger btn-simple btn-xs" onclick="Remove(this)">
+                                                <i class="material-icons">Remove</i>
+                                            </button>
+                                        </td>
+                                    </tr>*@
+
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-actions">
+                                        <button type="submit" id="sendServer" name="sendServer" class="btn btn-success"> <i class="fa fa-check"></i> Save</button>
+                                        <button type="button" class="btn btn-inverse" onclick="window.location.reload(true);">Cancel</button>
+
+                                    </div>
+                                    <!-- End PAge Content -->
+                                </div>
+
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Row -->
+            <!-- End PAge Content -->
+        </div>
+        <!-- End Container fluid  -->
+    </div>
+    <script src="~/jsUser/lib/jquery/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="~/jsUser/lib/bootstrap/js/popper.min.js"></script>
+    <script src="~/jsUser/lib/bootstrap/js/bootstrap.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="~/jsUser/jquery.slimscroll.js"></script>
+    <!--Menu sidebar -->
+    <script src="~/jsUser/sidebarmenu.js"></script>
+    <!--stickey kit -->
+    <script src="~/jsUser/lib/sticky-kit-master/dist/sticky-kit.min.js"></script>
+    <!--Custom JavaScript -->
+    <script src="~/jsUser/custom.min.js"></script>
+    <script type="text/javascript">
+
+        $(function () {
+
+
+            AjaxCall('/User/GetAllProducts', null).done(function (response) {
+                if (response.length > 0) {
+                    $('#ProductsToPurchase').html('');
+                    var options = '';
+                    options += '<option value="Select">Select</option>';
+                    for (var i = 0; i < response.length; i++) {
+                        options += '<option value="' + response[i] + '">' + response[i] + '</option>';
+                    }
+                    $('#ProductsToPurchase').append(options);
+
+                }
+            }).fail(function (error) {
+                alert(error.StatusText);
+            });
+
+            
+
+            $('#ProductsToPurchase').on("change", function () {
+                var Product = $('#ProductsToPurchase').val();
+                var obj = { ProductName: Product };
+                $.ajax({
+                    url: "/User/GetProdDetails",
+                    method: "POST",
+                    data: obj,
+                    success: function (response) {
+                        console.log(response);
+                        if (response.length > 0) {
+                            $("#PackSize").val(response[0]);
+                            $("#DrugRegNum").val(response[3]);
+                            $("#AcUnit").val(response[4]);
+
+                        }
+                    }
+                })
+            });
+
+        });
+
+        $(function () {
+            $.ajax({
+                url: "/User/GetFinancialOfferNum",
+                method: "GET",
+                //data: obj,
+                success: function (response) {
+                    console.log(response);
+                    if (response.length > 0) {
+                        $("#FoNum").val(response[0]);
+
+                    }
+                }
+            });
+        });
+
+        function AjaxCall(url, data, type) {
+            return $.ajax({
+                url: url,
+                type: type ? type : 'GET',
+                data: data,
+                contentType: 'application/json'
+            });
+        }
+
+        $("#PercentAmount,#custBidRate,#TenderQuan").keyup(function () {
+           
+            var sum = $('#TenderQuan').val() * $('#custBidRate').val();
+            $('#TotalAmount').val(sum.toFixed(2));
+            var number = ($('#TotalAmount').val() * $('#PercentAmount').val() / 100);
+            $('#PercentCalculated').val(number.toFixed(2));
+
+        });
+
+
+        $("body").on("click", "#btnAdd", function () {
+            //Auto Generated Text Boxes
+            var itemCode = $("#itemCode");
+            var AcUnit = $("#AcUnit");
+            var TenderQuan = $("#TenderQuan");
+            var PackSize = $("#PackSize");
+            var DrugRegNum = $("#DrugRegNum");
+          
+            var BrandName = $("#ProductsToPurchase");
+            var Tradeprice = $("#Tradeprice");
+            var custBidRate = $("#custBidRate");
+            var TotalAmount = $("#TotalAmount");
+            var PercentCalculated = $("#PercentCalculated");
+           
+            //Get the reference of the Table's TBODY element.
+            var tBody = $("#tblFinancialOffer > TBODY")[0];
+
+            //Add Row.
+            var row = tBody.insertRow(-1);
+
+            // Auto Generated Cells Added.
+            var cell = $(row.insertCell(-1));
+            cell.html(itemCode.val());
+
+            cell = $(row.insertCell(-1));
+            cell.html(AcUnit.val());
+
+            cell = $(row.insertCell(-1));
+            cell.html(TenderQuan.val());
+
+            //Add GenericName cell.
+            cell = $(row.insertCell(-1));
+            cell.html(PackSize.val());
+
+            //Brand Name cell.
+            cell = $(row.insertCell(-1));
+            cell.html(DrugRegNum.val());
+            //Prod Strength cell.
+            cell = $(row.insertCell(-1));
+            cell.html(BrandName.val());
+            //Manufacturer Name cell.
+            cell = $(row.insertCell(-1));
+            cell.html(Tradeprice.val());
+            // Prod Pack Size Cell
+            cell = $(row.insertCell(-1));
+            cell.html(custBidRate.val());
+            // Approx Quantity Cell
+            cell = $(row.insertCell(-1));
+            cell.html(TotalAmount.val());
+            //Trade Price cell.
+            cell = $(row.insertCell(-1));
+            cell.html(PercentCalculated.val());
+            //Bid Rate cell.
+            //Add Button cell.
+
+            cell = $(row.insertCell(-1));
+            var btnRemove = $("<input />");
+            btnRemove.attr("type", "button");
+            btnRemove.attr("class", "btn btn-danger btn-simple btn-xs");
+            btnRemove.attr("onclick", "Remove(this);");
+            btnRemove.val("Remove");
+            cell.append(btnRemove);
+
+
+            //Clear the TextBoxes.
+            itemCode.val("");
+            AcUnit.val("");
+            TenderQuan.val("");
+            PackSize.val("");
+            DrugRegNum.val("");
+            BrandName.val("");
+            Tradeprice.val("");
+            custBidRate.val("");
+            TotalAmount.val("");
+            PercentCalculated.val("");
+        });
+
+        function Remove(button) {
+            //Determine the reference of the Row using the Button.
+            var row = $(button).closest("TR");
+            var name = $("TD", row).eq(0).html();
+            if (confirm("Do you want to delete Item Code: " + name)) {
+                //Get the reference of the Table.
+                var table = $("#tblFinancialOffer")[0];
+
+                //Delete the Table row using it's Index.
+                table.deleteRow(row[0].rowIndex);
+            }
+        };
+
+        function Cancel(button) {
+
+            if (confirm("Do you want to delete whole table?: ")) {
+                //Get the reference of the Table.
+                //var table = $("#tblFinancialOffer")[0];
+                var table = document.getElementById("tblFinancialOffer");
+                //or use :  var table = document.all.tableid;
+                for (var i = table.rows.length - 1; i > 0; i--) {
+                    table.deleteRow(i);
+                }
+            };
+        };
+
+         $("body").on("click", "#sendServer", function () {
+                //Loop through the Table rows and build a JSON array.
+            
+                var customers = [];
+                //document.getElementById(rowId).childNodes[5].value;
+                $("#tblFinancialOffer TBODY TR").each(function () {
+                    var row = $(this);
+                    var customer = {};
+                    customer.FinancialOfferNum = $("#FoNum").val();
+                    customer.CustomerName = $("#CustName").val();
+                    customer.Desc1 = $("#Desc1").val();
+                    customer.Desc2 = $("#Desc2").val();
+                    customer.Desc3 = $("#Desc3").val();
+                    customer.Notes1 = $("#Notes1").val();
+                    customer.Notes2 = $("#Notes2").val();
+                    customer.Notes3 = $("#Notes3").val();
+                    customer.PercentageOfQuotedItems = $("#PercentAmount").val();
+                   
+                    customer.itemCode = row.find("td").eq(0).html();
+                    customer.AcUnit = row.find("td").eq(1).html();
+                    customer.TenderQuntity = row.find("td").eq(2).html();
+                    customer.Pack = row.find("td").eq(3).html();
+                    customer.drugProdregNum = row.find("td").eq(4).html();
+                    customer.Product_Brand_Name = row.find("td").eq(5).html();
+                    customer.Tradeprice = row.find("td").eq(6).html();
+                    customer.custBidRate = row.find("td").eq(7).html();
+                    customer.TotalAmount = row.find("td").eq(8).html();
+                    customer.PercentCalculated = row.find("td").eq(9).html();
+
+                    customers.push(customer);
+             
+                });
+                console.log(JSON.stringify(customers));
+                //Send the JSON array to Controller using AJAX.
+                $.ajax({
+                    type: "POST",
+                    url: "/User/SaveFinancialOffer",
+                    data: JSON.stringify(customers),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (r) {
+                        alert(r + " record(s) inserted.");
+                          window.location.href =  '@Url.Action("FinancialOffersView", "User")'
+                    }
+                });
+            });
+    </script>
+</body>
+</html>

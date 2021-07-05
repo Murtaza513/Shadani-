@@ -1,0 +1,267 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+@model ShadaniEnterprises.Models.DeliveryChallanList
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Edit Delivery Challan</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="~/cssUser/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="~/cssUser/helper.css" rel="stylesheet">
+    <link href="~/cssUser/style.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:** -->
+    <!--[if lt IE 9]>
+        <script src="https:**oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https:**oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!-- Preloader - style you can find in spinners.css -->
+    <div class="preloader">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+        </svg>
+    </div>
+    @Html.Partial("_Header")
+    @Html.Partial("_Navigation")
+    <div class="page-wrapper">
+        <!-- Bread crumb -->
+        <div class="row page-titles">
+            <div class="col-md-5 align-self-center">
+                <h3 class="text-primary">Edit Delivery Challan</h3>
+            </div>
+            <div class="col-md-7 align-self-center">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="javascript:void(0)">Parameters</a></li>
+                    <li class="breadcrumb-item active">Edit Delivery Challan</li>
+                </ol>
+            </div>
+        </div>
+        <!-- End Bread crumb -->
+        <!-- Container fluid  -->
+        <div class="container-fluid">
+            <!-- Start Page Content -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card card-outline-primary">
+                        <div class="card-header">
+                            <h4 class="m-b-0 text-white">Delivery Challan</h4>
+                        </div>
+                        <div class="card-body">
+
+                            <form action="#" id="editDC">
+                                <div class="form-body">
+                                    <h3 class="box-title m-t-40">Details</h3>
+                                    <hr>
+                                    @for (int x = 0; x < Model.LstDeliveryChallan.Count(); x++)
+                                    {
+                                    <div class="row">
+                                        <div class="col-md-6 ">
+                                            <div class="form-group">
+                                                <label>DC Number</label>
+                                                <input type="text" value="@Model.LstDeliveryChallan[x].DcNum" name="DcNum" id="DcNum" class="form-control" disabled>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 ">
+                                            <div class="form-group">
+                                                <label>DC Date</label>
+                                                <input type="text" value="@Model.LstDeliveryChallan[x].DcDate" name="DcDate" id="DcDate" class="form-control">
+                                            </div>
+                                        </div>
+                                    
+
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6 ">
+                                            <div class="form-group">
+                                                <label>Order Date</label>
+                                                <input type="text" value="@Model.LstDeliveryChallan[x].OrderDate" name="OrderDate" id="OrderDate" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 ">
+                                            <div class="form-group">
+                                                <label>DC Type</label>
+                                                <select class="form-control custom-select" name="DcType" id="DcType">
+                                                    <option value="@Model.LstDeliveryChallan[x].DcType">@Model.LstDeliveryChallan[x].DcType</option>
+                                                    <option>-----------</option>
+                                                    <option value="Open">Open</option>
+                                                    <option value="Private">Private</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 ">
+                                            <div class="form-group">
+                                                <label>Include Warranty</label>
+                                                <select class="form-control custom-select" name="Warranty" id="Warranty">
+                                                    <option value="@Model.LstDeliveryChallan[x].Warranty">@Model.LstDeliveryChallan[x].Warranty</option>
+                                                    <option>-----------</option>
+                                                    <option value="Yes">Yes</option>
+                                                    <option value="No">No</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                        <div class="row">
+                                            <div class="col-md-6 ">
+                                                <div class="form-group">
+                                                    <label>Select Customer</label>
+                                                    <input type="text" value="@Model.LstDeliveryChallan[x].CustomerName" name="CustomerSelect" id="CustomerSelect" class="form-control" disabled>
+                                                    @*<select class="form-control custom-select" name="CompanySelect" id="CompanySelect1" disabled>
+                                                            <option>Select</option>
+                                                        </select>*@
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                     
+                                    }
+                                    @*<div class="row">
+                                        <div class="col-12">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div class="table-responsive m-t-40">
+                                                        <table id="tblDc" class="table table-bordered table-striped" table border="1" style="table-layout:fixed;">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>Tender Code</th>
+                                                                    <th>Prod Reg #</th>
+                                                                    <th>Product</th>
+                                                                    <th>Pack</th>
+                                                                    <th>A/c unit</th>
+                                                                    <th>Qty</th>
+                                                                    <th>Batch</th>
+                                                                    <th>MFG</th>
+                                                                    <th>EXP</th>
+                                                               
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                @for (int y = 0; y < Model.LstDeliveryChallanDetails.Count(); y++)
+                                                                {
+                                                                <tr>
+                                                                    <td hidden><input type="text" value="@Model.LstDeliveryChallanDetails[y].DeliveryChallanID" name="DCID" id="DCID" class="form-control" hidden /></td>
+                                                                    <td hidden><input type="text" value="@Model.LstDeliveryChallanDetails[y].Ref" name="RefSelect" id="RefSelect" class="form-control" hidden /></td>
+                                                                    <td><input type="text" value="@Model.LstDeliveryChallanDetails[y].TenderCode" name="TenderCode" id="TenderCode" class="form-control" /></td>
+                                                                    <td><input type="text" value="@Model.LstDeliveryChallanDetails[y].ProdRegNum" name="ProdRegNum" id="ProdRegNum" class="form-control" /></td>
+                                                                    <td>
+                                                                        <select class="form-control custom-select" name="ProductSelect" id="ProductSelect1">
+                                                                            <option value="@Model.LstDeliveryChallanDetails[y].ProductBrandName">@Model.LstDeliveryChallanDetails[y].ProductBrandName</option>
+                                                                        </select>
+                                                                    </td>
+                                                                    <td><input type="text" value="@Model.LstDeliveryChallanDetails[y].Pack" name="prodPackSize" id="prodPackSize" class="form-control" /></td>
+                                                                    <td><input type="text" value="@Model.LstDeliveryChallanDetails[y].AcUnit" name="AcUnit" id="AcUnit" class="form-control" /></td>
+                                                                    <td><input type="text" value="@Model.LstDeliveryChallanDetails[y].PurchasesQty" name="prodQuantity" id="prodQuantity" class="form-control prodQuantity" /></td>
+                                                                    <td><input type="text" value="@Model.LstDeliveryChallanDetails[y].Batch" name="prodBatchNumber" id="prodBatchNumber" class="form-control" /></td>
+                                                                    <td><input type="text" value="@Model.LstDeliveryChallanDetails[y].MFG" name="MfgDate" id="MfgDate" class="form-control" /></td>
+                                                                    <td><input type="text" value="@Model.LstDeliveryChallanDetails[y].EXP" name="ExpDate" id="ExpDate" class="form-control" /></td>
+
+                                                                </tr>
+                                                                }
+                                                            </tbody>
+                                                        </table>
+                                                     
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>*@
+
+                                    <!--/row-->
+                                    <!--/row-->
+                                </div>
+                                <div class="form-actions">
+
+                                    <button type="button" id="sendServer" name="sendServer" class="btn btn-success"> <i class="fa fa-check"></i> Save</button>
+                                    <button type="button" class="btn btn-inverse" onclick=" window.location.href ='@Url.Action("DeliveryChallanView", "User")'">Cancel</button>
+                                </div>
+                            </form>
+                            @*<lable id="lblOrderValue"></lable>
+                                <lable id="lblNetPayable"></lable>*@
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Row -->
+            <!-- End PAge Content -->
+        </div>
+        <!-- End Container fluid  -->
+    </div>
+
+    <script src="~/jsUser/lib/jquery/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="~/jsUser/lib/bootstrap/js/popper.min.js"></script>
+    <script src="~/jsUser/lib/bootstrap/js/bootstrap.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="~/jsUser/jquery.slimscroll.js"></script>
+    <!--Menu sidebar -->
+    <script src="~/jsUser/sidebarmenu.js"></script>
+    <!--stickey kit -->
+    <script src="~/jsUser/lib/sticky-kit-master/dist/sticky-kit.min.js"></script>
+    <!--Custom JavaScript -->
+    <script src="~/jsUser/custom.min.js"></script>
+    <script type="text/javascript">
+
+        
+        $("body").on("click", "#sendServer", function () {
+            //Loop through the Table rows and build a JSON array.
+            var PurchaseRef = $("#PurchaseRef");
+            var PurchaseOrderDate = $("#PurchaseOrderDate");
+            var Remarks = $("#Remarks");
+            var PlaceOfDelivery = $("#PlaceOfDelivery");
+            var Company_ID = $("#Company_ID");
+            var customers = [];
+
+            //document.getElementById(rowId).childNodes[5].value;
+            $("#editDC").each(function () {
+                var row = $(this);
+                var customer = {};
+
+              
+                customer.OrderDate = $("#OrderDate").val();
+                customer.DcNum = $("#DcNum").val();
+                customer.CustomerName = $("#CustomerSelect").val();
+                customer.DcDate = $("#DcDate").val();
+                customer.DcType = $("#DcType").val();
+                customer.Warranty = $("#Warranty").val();
+                //customer.DeliveryChallanID = row.find("td").eq(0).find('input').val();
+                //customer.Ref = row.find("td").eq(1).find('input').val();
+                //customer.TenderCode = row.find("td").eq(2).find('input').val();
+                //customer.ProdRegNum = row.find("td").eq(3).find('input').val();
+                //customer.ProductName = row.find("td").eq(4).find('option').val();
+                //customer.PackVal = row.find("td").eq(5).find('input').val();
+                //customer.AcUnit = row.find("td").eq(6).find('input').val();
+                //customer.prodQty = row.find("td").eq(7).find('input').val();
+                //customer.prodBatch = row.find("td").eq(8).find('input').val();
+                //customer.prodMFG = row.find("td").eq(9).find('input').val();
+                //customer.prodEXP = row.find("td").eq(10).find('input').val();
+
+                customers.push(customer);
+
+            });
+            console.log(JSON.stringify(customers));
+            //Send the JSON array to Controller using AJAX.
+            $.ajax({
+                type: "POST",
+                url: "/User/SaveUpdatedDeliveryChallan",
+                data: JSON.stringify(customers),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (r) {
+                    alert(r + " record(s) inserted.");
+                    window.location.href =  '@Url.Action("DeliveryChallanView", "User")'
+                }
+            });
+        });
+    </script>
+</body>
+</html>
